@@ -1,0 +1,12 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Café com GM </title>
+		<link>https://cafecom.georgemoura.com.br/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<author></author>
+		<rights>Copyright (c) 1</rights>
+		<updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
+		
+	</channel>
+</rss>

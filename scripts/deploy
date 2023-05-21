@@ -1,0 +1,2 @@
+#! /bin/bash
+gsutil cp -r public/* gs://cafecom.georgemoura.com.br/
