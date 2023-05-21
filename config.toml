@@ -2,6 +2,7 @@ baseURL = "https://cafecomgm.com.br/"
 languageCode = "pt-br"
 title = "Café com GM"
 theme = 'story'
+googleAnalytics = 'G-RWJ4CG1QS1'
 
 [deployment]
 # By default, files are uploaded in an arbitrary order.
