@@ -1,5 +1,5 @@
 ---
-title: "Cafe Latte a Harmonia Entre Cafe Leite E Sabor"
+title: "Café Latte: A Harmonia Entre Café, Leite e Sabor"
 date: 2023-05-27T08:09:23-03:00
 draft: false
 ---
