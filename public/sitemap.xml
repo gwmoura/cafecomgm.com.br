@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://cafecom.georgemoura.com.br/</loc>
-  </url>
-  
-  <url>
+    <lastmod>2025-10-13T20:23:37-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/o-que-seria-o-cafe-gourmet/</loc>
+    <lastmod>2025-10-13T20:23:37-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/</loc>
+    <lastmod>2025-10-13T20:23:37-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/os-melhores-acessorios-para-preparar-cafe-em-casa/</loc>
+    <lastmod>2023-05-31T07:57:37-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude/</loc>
+    <lastmod>2023-05-29T20:37:22-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita/</loc>
+    <lastmod>2023-05-28T19:17:39-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe/</loc>
+    <lastmod>2023-05-28T14:24:59-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/cafe-latte-a-harmonia-entre-cafe-leite-e-sabor/</loc>
+    <lastmod>2023-05-27T08:09:23-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma/</loc>
+    <lastmod>2023-05-26T20:21:42-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/cafe-robusta-forca-intensidade-em-cada-gole/</loc>
+    <lastmod>2023-05-26T05:25:12-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/cafe-expresso-a-intensidade-em-uma-xicara/</loc>
+    <lastmod>2023-05-25T20:29:25-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/cafe-arabica/</loc>
+    <lastmod>2023-05-25T06:10:06-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/tipos-de-cafe/</loc>
+    <lastmod>2023-05-23T23:01:37-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/dicas-de-armazenamento-do-po-do-cafe/</loc>
+    <lastmod>2023-05-23T06:50:25-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/dicas-de-armazenamento-do-cafe/</loc>
+    <lastmod>2023-05-21T19:53:14-03:00</lastmod>
+  </url><url>
+    <loc>https://cafecom.georgemoura.com.br/posts/bem-vindo/</loc>
+    <lastmod>2023-05-21T18:53:56-03:00</lastmod>
+  </url><url>
     <loc>https://cafecom.georgemoura.com.br/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cafecom.georgemoura.com.br/tags/</loc>
   </url>
-  
 </urlset>
