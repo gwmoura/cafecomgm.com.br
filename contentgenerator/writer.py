@@ -1,14 +1,22 @@
 import os
-from dotenv import load_dotenv
+import unicodedata
+import re
+import threading
+import time
 from datetime import datetime
-from langchain_ollama.llms import OllamaLLM
+from llm import llm
+from helpers import loading_animation
 
-# carregar variáveis do .env
-load_dotenv()
-MODEL = os.getenv("OLLAMA_MODEL", "llama3")
-
-# inicializar o modelo Ollama via LangChain
-llm = OllamaLLM(model=MODEL, temperature=0.7)
+def slugify_topic(topic: str) -> str:
+    # Normaliza unicode, remove acentos
+    topic = unicodedata.normalize('NFKD', topic)
+    topic = topic.encode('ascii', 'ignore').decode('ascii')
+    # Substitui caracteres não alfanuméricos por hífen
+    topic = re.sub(r'[^a-zA-Z0-9]+', '-', topic)
+    # Remove hífens duplicados e bordas
+    topic = re.sub(r'-+', '-', topic).strip('-')
+    # Converte para minúsculas
+    return topic.lower()
 
 def generate_article(topic: str, description: str = "") -> str:
     # carregar o template do prompt
@@ -18,19 +26,24 @@ def generate_article(topic: str, description: str = "") -> str:
     prompt = prompt_template.format(topic=topic, description=description)
     print(f"\n🧠 Gerando artigo sobre: {topic}...\n")
 
-    # gerar texto
-    response = llm.invoke(prompt)  # ou llm(prompt)
+    # mostrar loading enquanto gera texto
+    stop_event = threading.Event()
+    loader_thread = threading.Thread(target=loading_animation, args=(stop_event,))
+    loader_thread.start()
+    response = llm.invoke(prompt)
+    stop_event.set()
+    loader_thread.join()
 
     # salvar o resultado
     os.makedirs("outputs", exist_ok=True)
-    filename = f"outputs/{datetime.now().strftime('%Y%m%d_%H%M%S')}_{topic.lower().replace(' ', '_')}.md"
+    slug = slugify_topic(topic)
+    filename = f"outputs/{datetime.now().strftime('%Y%m%d_%H%M%S')}_{slug}.md"
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(response)
 
     print(f"✅ Artigo salvo em: {filename}")
     return response
-
 
 if __name__ == "__main__":
     topic = input("Digite o tema do artigo sobre café: ")

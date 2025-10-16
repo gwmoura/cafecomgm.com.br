@@ -1,13 +1,6 @@
 import os
-from dotenv import load_dotenv
-from langchain_ollama.llms import OllamaLLM
-
-# carregar variáveis do .env
-load_dotenv()
-MODEL = os.getenv("OLLAMA_MODEL", "llama3")
-
-# inicializar modelo
-llm = OllamaLLM(model=MODEL)
+from llm import llm
+from helpers import loading_animation
 
 def revisar_artigo(nome_arquivo):
     caminho_entrada = f"outputs/{nome_arquivo}"

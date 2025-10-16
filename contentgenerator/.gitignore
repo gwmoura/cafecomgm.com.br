@@ -1,2 +1,3 @@
 outputs/*.md
 revisions/*.md
+__pycache__
