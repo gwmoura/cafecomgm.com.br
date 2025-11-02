@@ -1,6 +1,7 @@
 baseURL = "https://cafecom.georgemoura.com.br/"
 languageCode = "pt-br"
 title = "Café com GM"
+# theme = 'hugo-theme-flat'
 theme = 'story'
 googleAnalytics = 'G-RWJ4CG1QS1'
 

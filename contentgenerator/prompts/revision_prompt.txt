@@ -9,5 +9,19 @@ Não reescreva o texto, apenas comente e recomende mudanças.
 
 No final, dê uma nota de 0 a 10 do quão o conteúdo ficou humano e lançável para o blog
 
-Texto:
+IMPORTANTE:
+- Retorne a resposta EXCLUSIVAMENTE no formato JSON válido.
+- Não adicione explicações fora do JSON.
+- Use este formato exato:
+
+{
+  "score": <número entre 0 e 10>,
+  "comments": [
+    "comentário 1",
+    "comentário 2",
+    "comentário 3"
+  ]
+}
+
+Texto a avaliar:
 {texto}

@@ -4,7 +4,7 @@ from helpers import loading_animation
 
 def revisar_artigo(nome_arquivo):
     caminho_entrada = f"outputs/{nome_arquivo}"
-    caminho_saida = f"revisions/revisao-{nome_arquivo}"
+    caminho_saida = f"revisions/revisao-{nome_arquivo}.json"
 
     if not os.path.exists(caminho_entrada):
         print("❌ Arquivo não encontrado.")
