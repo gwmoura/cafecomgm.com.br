@@ -1,22 +1,9 @@
 import os
-import unicodedata
-import re
 import threading
 import time
 from datetime import datetime
 from llm import llm
-from helpers import loading_animation
-
-def slugify_topic(topic: str) -> str:
-    # Normaliza unicode, remove acentos
-    topic = unicodedata.normalize('NFKD', topic)
-    topic = topic.encode('ascii', 'ignore').decode('ascii')
-    # Substitui caracteres não alfanuméricos por hífen
-    topic = re.sub(r'[^a-zA-Z0-9]+', '-', topic)
-    # Remove hífens duplicados e bordas
-    topic = re.sub(r'-+', '-', topic).strip('-')
-    # Converte para minúsculas
-    return topic.lower()
+from helpers import loading_animation, slugify_topic
 
 def generate_article(topic: str, description: str = "") -> str:
     # carregar o template do prompt

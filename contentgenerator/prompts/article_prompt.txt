@@ -10,10 +10,12 @@ Escreva um artigo otimizado para SEO, entre 800 e 1000 palavras, sobre o tema ab
 Use uma estrutura com:
 - Título atraente
 - Introdução breve e atrativa
-- 2 a 3 subtítulos bem distribuídos
+- 2 a 3 subtítulos bem distribuídos (Pode adicionar mais subtítulos se necessário)
 - Conclusão inspiradora
 - Palavras-chave naturais e coerentes
 - No final, liste 3 palavras-chave SEO
+
+Ao criar os subtítulos, utilize o formato markdown com três hashtags (###) antes do texto do subtítulo, e não utilize ** para subtítulos.
 
 Tema: {topic}
 Descrição: {description}

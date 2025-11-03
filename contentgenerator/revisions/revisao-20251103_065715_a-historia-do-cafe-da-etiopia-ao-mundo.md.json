@@ -1,0 +1,23 @@
+Here is the JSON response:
+
+{
+"score": 8,
+"comments": [
+{
+"type": "coherence",
+"text": "The transition between sections could be smoother. Consider adding transitional phrases or sentences to connect each section."
+},
+{
+"type": "style",
+"text": "Some sentences are a bit too formal and lack a personal touch. Consider injecting more personality into the writing."
+},
+{
+"type": "SEO",
+"text": "Add more specific keywords related to coffee, such as 'coffee culture', 'roasting process', or 'coffee beans'. Also, consider adding internal links to other relevant blog posts or articles on the topic."
+},
+{
+"type": "style",
+"text": "The conclusion feels a bit abrupt. Consider expanding on the significance of the history of coffee and its connection to modern-day coffee culture."
+}
+]
+}

@@ -12,16 +12,7 @@ No final, dê uma nota de 0 a 10 do quão o conteúdo ficou humano e lançável 
 IMPORTANTE:
 - Retorne a resposta EXCLUSIVAMENTE no formato JSON válido.
 - Não adicione explicações fora do JSON.
-- Use este formato exato:
-
-{
-  "score": <número entre 0 e 10>,
-  "comments": [
-    "comentário 1",
-    "comentário 2",
-    "comentário 3"
-  ]
-}
+- O JSON retornado deve ter um campo de score com valores de 0 a 10 e uma lista de comentários:
 
 Texto a avaliar:
 {texto}

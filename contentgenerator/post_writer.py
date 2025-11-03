@@ -1,6 +1,7 @@
 import os
 import re
 from datetime import datetime
+from helpers import slugify_topic
 
 OUTPUTS_DIR = os.path.join(os.path.dirname(__file__), 'outputs')
 POSTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../content/posts'))
@@ -39,6 +40,7 @@ def convert_to_hugo_post(md_file):
 	content = re.sub(r'\*\*Palavras-chave naturais:?\*\*[\s\S]*?(\n\*\*|$)', '', content)
 	content = re.sub(r'\*\*Palavras-chave SEO \(3\):\*\*[\s\S]+', '', content)
 	content = re.sub(r'Palavras-chave SEO \(3\):\*\*[\s\S]+', '', content)
+	content = re.sub(r'\*\*Introdução:?\*\*:?\s*', '', content)
 	content = content.strip()
 	# Data do arquivo pelo nome (ex: 20251015_193101_nome.md)
 	basename = os.path.basename(md_file)
@@ -50,7 +52,7 @@ def convert_to_hugo_post(md_file):
 	else:
 		hugo_date = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
 	# Nome do arquivo destino
-	slug = re.sub(r'[^a-zA-Z0-9]+', '-', title.lower()).strip('-')
+	slug = slugify_topic(title)
 	dest_file = os.path.join(POSTS_DIR, f"{slug}.md")
 	# Monta o front matter novo
 	keywords_str = ', '.join(f'{kw}' for kw in keywords)
