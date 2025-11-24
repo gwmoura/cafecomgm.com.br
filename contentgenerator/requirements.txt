@@ -1,5 +1,6 @@
 langchain
 langchain-ollama
+langchain-openai
 markdown2
 python-dotenv
 requests
