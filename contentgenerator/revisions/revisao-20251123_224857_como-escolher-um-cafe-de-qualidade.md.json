@@ -1,45 +1,11 @@
-{
-  "score": 8,
-  "comments": [
-    {
-      "category": "coerência/informação",
-      "message": "A afirmação de que cafés recém-torrados são ideais até 30 dias após a torra pode ser considerada longa demais. Recomenda-se aproveitar o frescor entre 2 e 4 semanas para melhores aromas."
-    },
-    {
-      "category": "coerência/informação",
-      "message": "O selo UTZ foi fundido com Rainforest Alliance em 2018. Usar ambos separadamente pode confundir o leitor; vale mencionar que agora as certificações operam unificadas."
-    },
-    {
-      "category": "coerência/informação",
-      "message": "Cuidado ao sugerir moer em moinho de lâminas: bom destacar que, embora funcione, moinhos de rebarbas (burr grinders) proporcionam moagem mais uniforme e melhor extração."
-    },
-    {
-      "category": "estilo",
-      "message": "A introdução usa a 1ª pessoa (“como eu”); para soar mais impessoal e profissional, considere manter voz na 2ª pessoa do singular sem inserir experiências pessoais em excesso."
-    },
-    {
-      "category": "estilo",
-      "message": "Há repetição dos termos “café especial/especiais”. Varie o vocabulário com sinônimos como “grãos de alta qualidade”, “origens diferenciadas” ou “coffees de sabor único”."
-    },
-    {
-      "category": "estilo",
-      "message": "Alguns trechos poderiam ganhar um tom mais conversacional: use perguntas retóricas e contrações informais para se aproximar do leitor, e evite frases muito longas."
-    },
-    {
-      "category": "SEO",
-      "message": "Sugira uma meta descrição de até 155 caracteres contendo as palavras-chave principais, por exemplo: “Descubra como escolher um café de qualidade com 5 dicas práticas para identificar cafés especiais, da embalagem à xícara.”"
-    },
-    {
-      "category": "SEO",
-      "message": "Inclua subtítulos H2 para cada dica e utilize variações de palavras-chave como “selecionar café especial” ou “identificar grãos premium” para reforçar o SEO interno."
-    },
-    {
-      "category": "SEO",
-      "message": "Adicione uma seção de FAQ ao final com perguntas como “O que torna um café especial?”, “Como ler data de torra?”, usando marcação schema.org para melhorar CTR."
-    },
-    {
-      "category": "SEO",
-      "message": "Insira links internos para outros artigos do blog (por exemplo, métodos de extração ou tipos de torra) e links externos confiáveis (site da SCA, certificações) para enriquecer o conteúdo."
-    }
-  ]
-}
+{"score":8,"comments":[
+"[Coerência] No item 2, menciona-se ‘3 Corações’ como cápsula similar à Nespresso, mas a marca possui formatos próprios (pode confundir o leitor).",
+"[Coerência] Há contradição na seção 6: diz que ‘nem todos os cafés especiais são 100% Arábica’ e no mesmo tópico reforça ‘Grãos 100% Arábica’. Escolher uma afirmação ou explicar exceções deixaria mais claro.",
+"[Coerência] O título promete 5 dicas práticas, mas o texto inclui um sexto tópico (‘Em resumo’). Ajustar a numeração ou separar resumo como seção à parte ajuda na consistência.",
+"[Estilo] Algumas expressões – como ‘sacode sensorial’ – soam muito informais; varie o registro para não alienar leitores que buscam credibilidade.",
+"[Estilo] Frases longas demais na introdução podem cansar; tente parágrafos mais curtos e inclua perguntas retóricas para engajar (‘Você já reparou como…?’).",
+"[Estilo] Diversifique o uso de ‘você’ com variações (‘o leitor’, ‘quem busca um café diferenciado’) para evitar repetição excessiva do pronome.",
+"[SEO] Sugiro meta description de até 160 caracteres incluindo ‘café de qualidade’, ‘dicas café especial’ e convite à leitura (“Aprenda 5 dicas…”).",
+"[SEO] Insira subtítulos H2 com palavras-chave long tail, como ‘Como identificar café de qualidade na embalagem’ e ‘Passo a passo da degustação funcional’. ",
+"[SEO] Inclua links internos para posts sobre métodos de preparo (V60, prensa francesa) e um alt text em imagens (‘grãos de bourbon em alta altitude’)."
+]}
