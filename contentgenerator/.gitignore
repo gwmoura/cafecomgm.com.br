@@ -1,3 +1,4 @@
 outputs/*.md
 revisions/*.md
+revisions/*.json
 __pycache__
