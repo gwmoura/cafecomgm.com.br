@@ -1,24 +1,59 @@
 {{ define "main" }}
-	<div class="pa3 pa4-ns w-100 w-70-ns center">
-		<section class="w-100 mw8">
-		{{/* Every 4th post an in-feed ad is inserted, but never as the very last item in the list */}}
-		{{ $adSlot := .Site.Params.ads.inFeedSlot }}
-		{{ $pages := where .Paginator.Pages ".Params.skip" "ne" "true" }}
-		{{ $pages = where (where $pages ".Date.Unix" "<" now.Unix) "Section" "ne" "slides" }}
-		{{ range $idx, $p := $pages }}
-			{{ partial "li.html" $p }}
-			{{ if and (eq (mod (add $idx 1) 4) 0) (lt (add $idx 1) (len $pages)) }}
-				{{ partial "google/ad-unit.html" (dict "site" $.Site "slot" $adSlot) }}
-			{{ end }}
-		{{ end }}
-		</section>
+{{ $allPosts := where site.RegularPages "Section" "posts" }}
+{{ $allPosts = $allPosts.ByDate.Reverse }}
+{{ $featured := index $allPosts 0 }}
+{{ $rest := after 1 $allPosts }}
+{{ $paginator := .Paginate $rest 9 }}
+
+{{ if eq $paginator.PageNumber 1 }}
+<section class="hero">
+	<div class="container hero__inner">
+		<div class="hero__content">
+			<span class="hero__eyebrow">Artigo em destaque</span>
+			<h1 class="hero__title"><a href="{{ $featured.Permalink }}">{{ $featured.Title | markdownify }}</a></h1>
+			<p class="hero__excerpt">{{ with $featured.Description }}{{ . | markdownify }}{{ else }}{{ $featured.Summary }}{{ end }}</p>
+			<div class="hero__meta">
+				<span><i class="far fa-calendar-alt"></i>{{ $featured.Date.Format "2 Jan, 2006" }}</span>
+				<span><i class="far fa-clock"></i>{{ $featured.ReadingTime }} min de leitura</span>
+			</div>
+			<a class="btn-gold" href="{{ $featured.Permalink }}">Ler artigo <i class="fas fa-arrow-right"></i></a>
+		</div>
+		<div class="hero__media">
+			<div class="media-badge"><i class="fas fa-coffee"></i></div>
+		</div>
 	</div>
+</section>
 {{ end }}
 
-{{ define "pagination" }}
-<footer class="w-100 sans-serif" role="contentinfo">
-	<nav class="w-third-l pb3 f6 center db" role="navigation">
-		{{- template "_internal/pagination.html" . -}}
+<section class="container">
+	<h2 class="section-title">{{ if gt $paginator.PageNumber 1 }}Mais artigos{{ else }}Últimos artigos{{ end }}</h2>
+	<p class="section-subtitle">Receitas, curiosidades e dicas para tirar o melhor do seu café.</p>
+
+	{{/* Every 4th card an in-feed ad spans the full grid row, but never as the last item on the page */}}
+	{{ $adSlot := .Site.Params.ads.inFeedSlot }}
+	<div class="posts-grid">
+	{{ range $i, $p := $paginator.Pages }}
+		{{ partial "postcard.html" (dict "post" $p "index" $i) }}
+		{{ if and (eq (mod (add $i 1) 4) 0) (lt (add $i 1) (len $paginator.Pages)) }}
+			{{ partial "google/ad-unit.html" (dict "site" $.Site "slot" $adSlot "inFeed" true) }}
+		{{ end }}
+	{{ end }}
+	</div>
+
+	{{ if gt $paginator.TotalPages 1 }}
+	<nav class="pagination">
+		{{ if $paginator.HasPrev }}
+		<a href="{{ $paginator.Prev.URL }}"><i class="fas fa-arrow-left"></i> Mais recentes</a>
+		{{ else }}
+		<span class="disabled"><i class="fas fa-arrow-left"></i> Mais recentes</span>
+		{{ end }}
+		<span class="page-info">Página {{ $paginator.PageNumber }} de {{ $paginator.TotalPages }}</span>
+		{{ if $paginator.HasNext }}
+		<a href="{{ $paginator.Next.URL }}">Mais antigos <i class="fas fa-arrow-right"></i></a>
+		{{ else }}
+		<span class="disabled">Mais antigos <i class="fas fa-arrow-right"></i></span>
+		{{ end }}
 	</nav>
-</footer>
+	{{ end }}
+</section>
 {{ end }}
