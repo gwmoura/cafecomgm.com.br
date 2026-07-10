@@ -1,0 +1,32 @@
+{{ define "title" }}{{ .Title | markdownify }} · {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article class="post-single">
+	<a class="post-back" href="{{ .Site.BaseURL }}"><i class="fas fa-arrow-left"></i> Voltar para o blog</a>
+	<h1 class="post-single__title">{{ .Title | markdownify }}</h1>
+	<div class="post-single__meta">
+		<span><i class="far fa-calendar-alt"></i>{{ .Date.Format "2 January, 2006" }}</span>
+		<span><i class="far fa-clock"></i>{{ .ReadingTime }} min de leitura</span>
+	</div>
+	<div class="post-single__divider"></div>
+	<div class="post-single__content">
+		{{ .Content }}
+	</div>
+	{{ with .Params.keywords }}
+	<div class="post-tags">
+		{{ range (split (delimit . " ") ",") }}
+		<span class="post-tag">{{ trim . " " }}</span>
+		{{ end }}
+	</div>
+	{{ end }}
+</article>
+{{ end }}
+
+{{ define "social" }}
+		<meta property="og:title" content="{{ .Title | markdownify }}" />
+		<meta property="og:type" content="article" />
+		<meta property="og:description" content="{{ .Description | markdownify }}" />
+		<meta property="og:url" content="{{ .Permalink }}" />
+		<meta property="og:site_name" content="{{ .Site.Title }}" />
+		<meta name="twitter:card" content="summary" />
+{{ end }}
