@@ -1,0 +1,42 @@
+{{ define "title" }}{{ .Section | title }} &bullet; {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<div class="pa3 pa4-ns w-100 w-70-ns center">
+  <section class="w-100 mw8">
+  {{/* Every 4th post an in-feed ad is inserted, but never as the very last item in the list */}}
+  {{ $adSlot := .Site.Params.ads.inFeedSlot }}
+  {{ $pages := where .Paginator.Pages ".Params.skip" "ne" "true" }}
+  {{ if eq .Section "talks" }}
+    {{ range $idx, $p := $pages }}
+      {{ partial "li.html" $p }}
+      {{ if and (eq (mod (add $idx 1) 4) 0) (lt (add $idx 1) (len $pages)) }}
+        {{ partial "google/ad-unit.html" (dict "site" $.Site "slot" $adSlot) }}
+      {{ end }}
+    {{ end }}
+  {{ else if eq .Section "slides" }}
+    {{ $pages = where $pages ".Date.Unix" "<" now.Unix }}
+    {{ range $idx, $p := $pages }}
+      {{ partial "li.html" $p }}
+      {{ if and (eq (mod (add $idx 1) 4) 0) (lt (add $idx 1) (len $pages)) }}
+        {{ partial "google/ad-unit.html" (dict "site" $.Site "slot" $adSlot) }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{ $pages = where (where $pages ".Date.Unix" "<" now.Unix) "Section" "ne" "slides" }}
+    {{ range $idx, $p := $pages }}
+      {{ partial "li.html" $p }}
+      {{ if and (eq (mod (add $idx 1) 4) 0) (lt (add $idx 1) (len $pages)) }}
+        {{ partial "google/ad-unit.html" (dict "site" $.Site "slot" $adSlot) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  </section>
+</div>
+{{ end }}
+
+{{ define "pagination" }}
+<footer class="w-100 sans-serif" role="contentinfo">
+	<nav class="w-third-l pb3 f6 center db" role="navigation">
+		{{- template "_internal/pagination.html" . -}}
+	</nav>
+</footer>
+{{ end }}

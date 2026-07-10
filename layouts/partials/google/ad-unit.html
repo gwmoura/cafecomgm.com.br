@@ -1,0 +1,21 @@
+{{/*
+Renders a single AdSense display ad unit, given a dict with:
+  - slot (string, required): the AdSense ad unit's data-ad-slot ID
+  - site (Site, required): the page's .Site, used for the ad client ID
+A labeled wrapper with a reserved min-height keeps the ad from causing
+layout shift or being mistaken for editorial content.
+*/}}
+{{- $slot := .slot -}}
+{{- $client := .site.Params.ads.client -}}
+{{- if and $slot $client -}}
+<div class="ad-slot tc mv4" style="min-height: 6.5rem;">
+	<p class="f7 gray ttu tracked mb1" style="letter-spacing: .08em;">Publicidade</p>
+	<ins class="adsbygoogle"
+		style="display:block"
+		data-ad-client="{{ $client }}"
+		data-ad-slot="{{ $slot }}"
+		data-ad-format="auto"
+		data-full-width-responsive="true"></ins>
+	<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{{- end -}}
