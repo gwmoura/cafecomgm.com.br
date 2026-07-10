@@ -10,8 +10,16 @@
 	</div>
 	<div class="post-single__divider"></div>
 	<div class="post-single__content">
-		{{ .Content }}
+		{{ $parts := split (string .Content) "</p>" }}
+		{{ if gt (len $parts) 1 }}
+			{{ (printf "%s</p>" (index $parts 0)) | safeHTML }}
+			{{ partial "google/ad-unit.html" (dict "site" .Site "slot" .Site.Params.ads.inArticleSlot) }}
+			{{ (delimit (after 1 $parts) "</p>") | safeHTML }}
+		{{ else }}
+			{{ .Content }}
+		{{ end }}
 	</div>
+	{{ partial "google/ad-unit.html" (dict "site" .Site "slot" .Site.Params.ads.endOfArticleSlot) }}
 	{{ with .Params.keywords }}
 	<div class="post-tags">
 		{{ range (split (delimit . " ") ",") }}

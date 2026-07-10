@@ -441,6 +441,33 @@ img { max-width: 100%; display: block; }
 	border-radius: 999px;
 }
 
+/* Ads */
+
+.ad-slot {
+	max-width: 760px;
+	min-height: 6.5rem;
+	margin: 2rem auto;
+	padding: 1rem;
+	text-align: center;
+	background: var(--color-cream-2);
+	border: 1px dashed var(--color-border);
+	border-radius: var(--radius);
+}
+
+.ad-slot__label {
+	margin: 0 0 0.6rem;
+	font-size: 0.7rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--color-text-muted);
+}
+
+.ad-slot--in-feed {
+	grid-column: 1 / -1;
+	max-width: none;
+}
+
 /* Footer */
 
 .site-footer {

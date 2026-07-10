@@ -29,9 +29,14 @@
 	<h2 class="section-title">{{ if gt $paginator.PageNumber 1 }}Mais artigos{{ else }}Últimos artigos{{ end }}</h2>
 	<p class="section-subtitle">Receitas, curiosidades e dicas para tirar o melhor do seu café.</p>
 
+	{{/* Every 4th card an in-feed ad spans the full grid row, but never as the last item on the page */}}
+	{{ $adSlot := .Site.Params.ads.inFeedSlot }}
 	<div class="posts-grid">
 	{{ range $i, $p := $paginator.Pages }}
 		{{ partial "postcard.html" (dict "post" $p "index" $i) }}
+		{{ if and (eq (mod (add $i 1) 4) 0) (lt (add $i 1) (len $paginator.Pages)) }}
+			{{ partial "google/ad-unit.html" (dict "site" $.Site "slot" $adSlot "inFeed" true) }}
+		{{ end }}
 	{{ end }}
 	</div>
 

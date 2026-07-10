@@ -5,6 +5,17 @@ title = "Café com GM"
 theme = 'story'
 googleAnalytics = 'G-RWJ4CG1QS1'
 
+[params.ads]
+# Client ID used by both Auto ads (layouts/partials/google/adsense.html)
+# and the manual ad units below (layouts/partials/google/ad-unit.html).
+client = "ca-pub-7444396631758040"
+# Create these as "Display ads" (responsive) in the AdSense dashboard and
+# paste each unit's data-ad-slot ID here. Leave blank to skip a placement
+# (an ad unit only renders if both client and slot are set).
+inArticleSlot = ""    # inserted after the first paragraph of each post
+endOfArticleSlot = "" # inserted at the end of each post
+inFeedSlot = ""       # inserted every 4th item in post listings (home, sections)
+
 [deployment]
 # By default, files are uploaded in an arbitrary order.
 # Files that match the regular expressions in the "Order" list
