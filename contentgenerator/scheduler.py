@@ -16,7 +16,7 @@ from writer import generate_article
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 MIN_TEMAS_DISPONIVEIS = 3  # abaixo disso, a categoria é reabastecida antes de sortear
-SCORE_MINIMO_PUBLICACAO = 6  # score do proofreader (0-10) abaixo do qual o post não é publicado
+SCORE_MINIMO_PUBLICACAO = 7  # score do proofreader (0-10) abaixo do qual o post não é publicado
 MAX_TENTATIVAS_REESCRITA = 3  # nº de reescritas via feedback do revisor antes de desistir
 
 
