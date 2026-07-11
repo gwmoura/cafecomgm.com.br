@@ -21,7 +21,6 @@ Common commands:
 ```bash
 hugo server -D          # local dev server, including drafts
 hugo                    # build the static site into public/
-./scripts/deploy        # gsutil cp -r public/* to the GCS bucket (build first)
 ```
 
 ## contentgenerator/ (Python article pipeline)

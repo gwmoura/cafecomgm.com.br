@@ -2,3 +2,4 @@ outputs/*.md
 revisions/*.md
 revisions/*.json
 __pycache__
+.env
