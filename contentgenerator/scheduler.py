@@ -1,28 +1,42 @@
-import os
 import random
-import subprocess
 from datetime import datetime
 
-TOPIC_DIR = "topics"
+from topic_researcher import pesquisar_novos_temas
+from topics_tracker import listar_categorias, registrar_uso, temas_disponiveis
+from writer import generate_article
+
 
 def escolher_tema():
-    arquivos = [os.path.join(TOPIC_DIR, f) for f in os.listdir(TOPIC_DIR) if f.endswith(".txt")]
-    arquivo_escolhido = random.choice(arquivos)
+    categorias = listar_categorias()
+    random.shuffle(categorias)
 
-    with open(arquivo_escolhido, "r", encoding="utf-8") as f:
-        linhas = [linha.strip() for linha in f if linha.strip()]
+    for categoria in categorias:
+        disponiveis = temas_disponiveis(categoria)
+        if disponiveis:
+            tema = random.choice(disponiveis)
+            print(f"Tema escolhido: {tema} (categoria: {categoria})")
+            return tema, categoria
 
-    tema = random.choice(linhas)
-    categoria = os.path.basename(arquivo_escolhido).replace(".txt", "")
+    print("⚠️ Todos os temas cadastrados já foram usados. Pesquisando novos temas...")
+    categoria = random.choice(categorias)
+    novos = pesquisar_novos_temas(categoria, quantidade=5)
+    if not novos:
+        raise RuntimeError(
+            "Não foi possível encontrar novos temas automaticamente. "
+            "Adicione temas manualmente em topics/ ou rode topic_researcher.py."
+        )
+
+    tema = random.choice(novos)
     print(f"Tema escolhido: {tema} (categoria: {categoria})")
-    return tema
+    return tema, categoria
 
-def gerar_artigo(tema):
-    comando = ["python", "main.py"]
-    processo = subprocess.Popen(comando, stdin=subprocess.PIPE, text=True)
-    processo.communicate(input=tema)
+
+def gerar_artigo(tema: str, categoria: str) -> str:
+    _, arquivo = generate_article(tema)
+    registrar_uso(tema, categoria, arquivo)
+    return arquivo
 
 if __name__ == "__main__":
-    tema = escolher_tema()
-    gerar_artigo(tema)
+    tema, categoria = escolher_tema()
+    gerar_artigo(tema, categoria)
     print(f"✅ Artigo gerado com sucesso ({datetime.now().strftime('%d/%m/%Y %H:%M')})")
