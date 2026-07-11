@@ -1,8 +1,8 @@
 ---
-title: "Descubra o Segredo do Café Perfeito com a Prensa Francesa"
+title: "Boas práticas de armazenamento para manter o frescor dos grãos"
 date: 2026-07-11T12:04:07Z
-description:
-keywords: ""
+description: "Aprenda como guardar café e garantir o frescor dos grãos com 6 dicas práticas de armazenamento de café. Simples, rápido e eficaz!"
+keywords: "guardar o café, como conservar o sabor do café, café fresco"
 draft: false
 ---
 

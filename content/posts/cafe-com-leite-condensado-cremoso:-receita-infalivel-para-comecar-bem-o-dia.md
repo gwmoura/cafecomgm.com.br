@@ -1,8 +1,8 @@
 ---
 title: "Café com Leite Condensado Cremoso: Receita Infalível para Começar Bem o Dia"
 date: 2026-07-11T14:41:58Z
-description:
-keywords: ""
+description: "Você vai aprender de cara como preparar um café com leite condensado cremoso, sem complicação. É uma bebida doce, suave e com aquela textura aveludada que todo mundo adora. Deixa eu te mostrar o passo a passo."
+keywords: "café com leite condensado cremoso, receita de café doce, como fazer café cremoso"
 draft: false
 ---
 
