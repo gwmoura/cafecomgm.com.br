@@ -5,7 +5,7 @@ from datetime import datetime
 from llm import llm
 from helpers import loading_animation, slugify_topic
 
-def generate_article(topic: str, description: str = "") -> str:
+def generate_article(topic: str, description: str = "") -> tuple:
     # carregar o template do prompt
     with open("prompts/article_prompt.txt", "r", encoding="utf-8") as f:
         prompt_template = f.read()
@@ -30,11 +30,11 @@ def generate_article(topic: str, description: str = "") -> str:
         f.write(response)
 
     print(f"✅ Artigo salvo em: {filename}")
-    return response
+    return response, filename
 
 if __name__ == "__main__":
     topic = input("Digite o tema do artigo sobre café: ")
     description = input("Digite uma breve descrição ou pontos que gostaria de incluir (opcional): ")
-    article = generate_article(topic, description)
+    article, _ = generate_article(topic, description)
     print("\nPrévia do artigo:\n")
     print(article[:800])
