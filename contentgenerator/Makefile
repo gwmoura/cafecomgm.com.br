@@ -11,7 +11,7 @@ consultant:
 	python3 consultant.py
 
 schedule:
-	python3 scheduler.py
+	python3 scheduler.py $(FILE)
 
 research-topics:
 	python3 topic_researcher.py

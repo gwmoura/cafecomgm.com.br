@@ -42,22 +42,22 @@ REGRAS:
 
 Retorne EXCLUSIVAMENTE o seguinte JSON válido, sem explicações fora dele:
 
-{
+{{
   "score": <número de 0 a 10>,
   "coerencia_coesao": [
-    { "trecho": "<trecho problemático>", "comentario": "<o que está errado ou duvidoso>" }
+    {{ "trecho": "<trecho problemático>", "comentario": "<o que está errado ou duvidoso>" }}
   ],
   "estilo_do_blog": [
-    { "trecho": "<trecho problemático>", "comentario": "<como ajustar para o estilo do blog>" }
+    {{ "trecho": "<trecho problemático>", "comentario": "<como ajustar para o estilo do blog>" }}
   ],
   "seo": [
-    { "comentario": "<sugestão de melhoria de SEO>" }
+    {{ "comentario": "<sugestão de melhoria de SEO>" }}
   ],
   "humanizacao": [
-    { "trecho": "<trecho que soa artificial>", "comentario": "<como tornar mais natural>" }
+    {{ "trecho": "<trecho que soa artificial>", "comentario": "<como tornar mais natural>" }}
   ],
   "resumo": "<parecer geral em 2 a 3 frases, direto ao ponto>"
-}
+}}
 
 Texto a avaliar:
 {texto}

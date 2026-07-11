@@ -3,7 +3,7 @@ import threading
 from llm import llm
 from helpers import loading_animation
 
-def regenerate_article(file_name: str, changes: str) -> str:
+def regenerate_article(file_name: str, review_json: str) -> str:
     caminho_entrada = f"outputs/{file_name}"
 
     if not os.path.exists(caminho_entrada):
@@ -16,7 +16,7 @@ def regenerate_article(file_name: str, changes: str) -> str:
     with open("prompts/article_rewrite_prompt.txt", "r", encoding="utf-8") as f:
         prompt_template = f.read()
 
-    prompt = prompt_template.format(article=article, changes=changes)
+    prompt = prompt_template.format(article=article, review_json=review_json)
     print(f"\n🧠 Gerando novamente o artigo...\n")
 
     stop_event = threading.Event()
@@ -39,7 +39,7 @@ def regenerate_article(file_name: str, changes: str) -> str:
 
 if __name__ == "__main__":
     file_name = input("Digite o nome do arquivo do artigo (ex: 20251013_os-segredos-do-cafe.md): ")
-    changes = input("Digite as mudanças necessárias: ")
-    article = regenerate_article(file_name, changes)
+    review_json = input("Digite as mudanças necessárias: ")
+    article = regenerate_article(file_name, review_json)
     print("\nPrévia do artigo:\n")
     print(article[:800])

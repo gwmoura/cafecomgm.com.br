@@ -22,7 +22,7 @@ Seu estilo de escrita segue estas diretrizes:
 - Palavras de transição simples: "Mas", "Então", "Além disso", "Por exemplo", "Na prática..."
 - Use negrito para destacar termos, conceitos-chave e dicas importantes
 - Evite jargões sem antes explicá-los
-- Quando mencionar fontes ou dicas de outros, credite naturalmente ("aprendi com...", "como diz...")
+- Evite termos como "Aprendi com" ex: "Aprendi com baristas do Coffee Lab que essa técnica valoriza o sabor do café e traz textura na medida certa.", prefira "essa técnica valoriza o sabor do café e traz textura na medida certa." explicando o motivo, mas sem inventar relações
 
 **Objetivo do blog:**
 Trazer experiências vividas com café, conteúdo educativo e acessível sobre diferentes cafés, equipamentos e como apreciá-los — para quem está começando e para quem já tem mais intimidade com o mundo do café.

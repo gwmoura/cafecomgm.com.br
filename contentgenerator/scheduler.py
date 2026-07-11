@@ -3,10 +3,12 @@ import os
 import random
 import re
 import subprocess
+import sys
 from datetime import datetime
 
 from post_writer import convert_to_hugo_post
 from proofreader import revisar_artigo
+from rewriter import regenerate_article
 from topic_researcher import pesquisar_novos_temas
 from topics_tracker import listar_categorias, registrar_uso, temas_disponiveis
 from writer import generate_article
@@ -15,6 +17,7 @@ REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 MIN_TEMAS_DISPONIVEIS = 3  # abaixo disso, a categoria é reabastecida antes de sortear
 SCORE_MINIMO_PUBLICACAO = 6  # score do proofreader (0-10) abaixo do qual o post não é publicado
+MAX_TENTATIVAS_REESCRITA = 3  # nº de reescritas via feedback do revisor antes de desistir
 
 
 def repor_temas_esgotando():
@@ -68,16 +71,35 @@ def extrair_score(revisao_texto):
 
 
 def revisar_e_publicar(arquivo: str, tema: str, categoria: str) -> bool:
-    """Roda o proofreader como gate de qualidade e, se aprovado, converte o
-    artigo em post Hugo e commita localmente (sem git push nem deploy)."""
+    """Roda o proofreader como gate de qualidade, reescrevendo o artigo com o
+    feedback do revisor até atingir o score mínimo (ou esgotar as tentativas) e,
+    se aprovado, converte o artigo em post Hugo e commita localmente (sem git
+    push nem deploy)."""
     basename = os.path.basename(arquivo)
     revisao = revisar_artigo(basename)
     score = extrair_score(revisao)
 
+    tentativas = 0
+    while (
+        revisao is not None
+        and score is not None
+        and score < SCORE_MINIMO_PUBLICACAO
+        and tentativas < MAX_TENTATIVAS_REESCRITA
+    ):
+        tentativas += 1
+        print(
+            f"✏️ Score {score}/10 abaixo do mínimo ({SCORE_MINIMO_PUBLICACAO}). "
+            f"Reescrevendo artigo com o feedback do revisor "
+            f"(tentativa {tentativas}/{MAX_TENTATIVAS_REESCRITA})..."
+        )
+        regenerate_article(basename, revisao)
+        revisao = revisar_artigo(basename)
+        score = extrair_score(revisao)
+
     if score is not None and score < SCORE_MINIMO_PUBLICACAO:
         print(
-            f"⚠️ Revisão reprovou o artigo (score {score}/10). "
-            f"Mantido em {arquivo} para ajuste manual (make rewrite)."
+            f"⚠️ Artigo não atingiu o score mínimo após {tentativas} reescrita(s) "
+            f"(score {score}/10). Mantido em {arquivo} para ajuste manual (make rewrite)."
         )
         return False
 
@@ -105,8 +127,18 @@ def revisar_e_publicar(arquivo: str, tema: str, categoria: str) -> bool:
 
 
 if __name__ == "__main__":
-    repor_temas_esgotando()
-    tema, categoria = escolher_tema()
-    arquivo = gerar_artigo(tema, categoria)
-    revisar_e_publicar(arquivo, tema, categoria)
+    if len(sys.argv) > 1:
+        basename = os.path.basename(sys.argv[1])
+        arquivo = f"outputs/{basename}"
+        if not os.path.exists(arquivo):
+            print(f"❌ Arquivo não encontrado: {arquivo}")
+            raise SystemExit(1)
+        tema = os.path.splitext(basename)[0]
+        print(f"📄 Revisando e reescrevendo artigo existente: {basename}")
+        revisar_e_publicar(arquivo, tema, "manual")
+    else:
+        repor_temas_esgotando()
+        tema, categoria = escolher_tema()
+        arquivo = gerar_artigo(tema, categoria)
+        revisar_e_publicar(arquivo, tema, categoria)
     print(f"✅ Execução concluída ({datetime.now().strftime('%d/%m/%Y %H:%M')})")

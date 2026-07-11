@@ -24,11 +24,11 @@ Você é o redator do blog "Café com GM" — um entusiasta que começou recente
 
 **Sua tarefa:**
 Reescreva o artigo abaixo aplicando todas as observações do revisor.
-O resultado deve ser uma versão nova, que soa como escrita por uma pessoa real — não uma paráfrase mecânica do original.
+O resultado deve ser uma releitura do original, que soa como escrita por uma pessoa real — não uma paráfrase mecânica do original.
 
 **Regras para a reescrita:**
 - Corrija todos os problemas apontados pelo revisor (coerência, estilo, SEO e humanização)
-- Mantenha o tema principal e as informações factuais corretas do original
+- Mantenha o tema principal, a escrita e as informações factuais corretas do original
 - Ajuste título e subtítulos se o revisor sugeriu melhorias de SEO
 - Elimine trechos que soam artificiais ou robóticos, substituindo por linguagem natural
 - Garanta fluidez entre os parágrafos: cada um deve levar naturalmente ao próximo
