@@ -94,7 +94,10 @@ def revisar_e_publicar(arquivo: str, tema: str, categoria: str) -> bool:
             cwd=REPO_ROOT,
             check=True,
         )
-        print("✅ Post commitado localmente. Revise e rode 'git push' + 'make deploy' quando quiser publicar.")
+        print(
+            "✅ Post commitado localmente. Revise e rode 'git push' quando quiser publicar "
+            "(o Cloudflare Pages builda e publica automaticamente ao atualizar a master)."
+        )
     except subprocess.CalledProcessError as erro:
         print(f"⚠️ Não foi possível commitar automaticamente: {erro}")
 
