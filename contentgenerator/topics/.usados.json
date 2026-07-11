@@ -1,1 +1,104 @@
-[]
+[
+  {
+    "tema": "Dicas de armazenamento do café",
+    "categoria": "equipamentos",
+    "data": "2023-05-21T19:53:14",
+    "arquivo": "content/posts/dicas-de-armazenamento-do-cafe.md"
+  },
+  {
+    "tema": "Dicas de armazenamento do pó de café",
+    "categoria": "equipamentos",
+    "data": "2023-05-23T06:50:25",
+    "arquivo": "content/posts/dicas-de-armazenamento-do-po-do-cafe.md"
+  },
+  {
+    "tema": "Café Arábica",
+    "categoria": "curiosidades",
+    "data": "2023-05-25T06:10:06",
+    "arquivo": "content/posts/cafe-arabica.md"
+  },
+  {
+    "tema": "Café Espresso",
+    "categoria": "cafe_geral",
+    "data": "2023-05-25T20:29:25",
+    "arquivo": "content/posts/cafe-expresso-a-intensidade-em-uma-xicara.md"
+  },
+  {
+    "tema": "Café Robusta",
+    "categoria": "curiosidades",
+    "data": "2023-05-26T05:25:12",
+    "arquivo": "content/posts/cafe-robusta-forca-intensidade-em-cada-gole.md"
+  },
+  {
+    "tema": "Café Cappuccino",
+    "categoria": "cafe_geral",
+    "data": "2023-05-26T20:21:42",
+    "arquivo": "content/posts/cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma.md"
+  },
+  {
+    "tema": "Café Latte",
+    "categoria": "cafe_geral",
+    "data": "2023-05-27T08:09:23",
+    "arquivo": "content/posts/cafe-latte-a-harmonia-entre-cafe-leite-e-sabor.md"
+  },
+  {
+    "tema": "Café Americano",
+    "categoria": "cafe_geral",
+    "data": "2023-05-28T14:24:59",
+    "arquivo": "content/posts/cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe.md"
+  },
+  {
+    "tema": "Guia de preparo de café: métodos e técnicas",
+    "categoria": "metodos",
+    "data": "2023-05-28T19:17:39",
+    "arquivo": "content/posts/guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita.md"
+  },
+  {
+    "tema": "Os benefícios do café para a saúde",
+    "categoria": "curiosidades",
+    "data": "2023-05-29T20:37:22",
+    "arquivo": "content/posts/os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude.md"
+  },
+  {
+    "tema": "Equipamentos essenciais para montar um coffee corner em casa",
+    "categoria": "equipamentos",
+    "data": "2023-05-31T07:57:37",
+    "arquivo": "content/posts/os-melhores-acessorios-para-preparar-cafe-em-casa.md"
+  },
+  {
+    "tema": "O que é café gourmet",
+    "categoria": "curiosidades",
+    "data": "2025-10-13T20:23:37",
+    "arquivo": "content/posts/o-que-seria-o-cafe-gourmet.md"
+  },
+  {
+    "tema": "Como o café se espalhou pelo mundo",
+    "categoria": "cafe_geral",
+    "data": "2025-11-03T06:57:15",
+    "arquivo": "content/posts/a-paixao-mundial-do-cafe-da-origem-a-conquista.md"
+  },
+  {
+    "tema": "Os diferentes tipos de grãos de café",
+    "categoria": "cafe_geral",
+    "data": "2025-11-05T21:38:36",
+    "arquivo": "content/posts/tipos-de-cafe.md"
+  },
+  {
+    "tema": "Como escolher um café de qualidade",
+    "categoria": "cafe_geral",
+    "data": "2025-11-23T22:48:57",
+    "arquivo": "content/posts/como-escolher-um-cafe-de-qualidade-5-dicas-praticas-para-identificar-cafes-especiais.md"
+  },
+  {
+    "tema": "French Press: corpo e aroma",
+    "categoria": "metodos",
+    "data": "2025-11-25T20:49:00",
+    "arquivo": "content/posts/descubra-o-segredo-do-cafe-perfeito-com-a-prensa-francesa.md"
+  },
+  {
+    "tema": "Como preparar café gelado em casa",
+    "categoria": "metodos",
+    "data": "2025-11-29T15:14:29",
+    "arquivo": "content/posts/refrescancia-na-xicara-como-preparar-o-cafe-gelado-perfeito-em-casa.md"
+  }
+]
