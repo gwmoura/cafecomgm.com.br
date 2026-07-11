@@ -10,6 +10,12 @@ revise:
 consultant:
 	python3 consultant.py
 
+schedule:
+	python3 scheduler.py
+
+research-topics:
+	python3 topic_researcher.py
+
 start-ollama:
 	docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 
