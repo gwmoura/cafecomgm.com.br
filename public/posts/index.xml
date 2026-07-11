@@ -2,189 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Café com GM</title>
-    <link>https://cafecom.georgemoura.com.br/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Café com GM</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 29 Nov 2025 15:14:29 +0000</lastBuildDate><atom:link href="https://cafecom.georgemoura.com.br/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Nov 2025 15:14:29 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Refrescância na Xícara: Como Preparar o Café Gelado Perfeito em Casa</title>
-      <link>https://cafecom.georgemoura.com.br/posts/refrescancia-na-xicara-como-preparar-o-cafe-gelado-perfeito-em-casa/</link>
+      <link>http://localhost:1313/posts/refrescancia-na-xicara-como-preparar-o-cafe-gelado-perfeito-em-casa/</link>
       <pubDate>Sat, 29 Nov 2025 15:14:29 +0000</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/refrescancia-na-xicara-como-preparar-o-cafe-gelado-perfeito-em-casa/</guid>
-      <description>Introdução
-Nos dias mais quentes, um gole de café gelado pode ser tão revigorante quanto um mergulho no mar. Se você está cansado das cápsulas de sempre e quer elevar o café gelado a outro nível, chegou ao lugar certo! Vamos explorar juntos receitas, ingredientes e toques especiais que transformam a simples bebida fria em uma experiência digna de cafeteria. Prepare seu moedor ou sua máquina, porque o blog “Café com GM” vai te ensinar a se refrescar sem sair de casa.</description>
+      <guid>http://localhost:1313/posts/refrescancia-na-xicara-como-preparar-o-cafe-gelado-perfeito-em-casa/</guid>
+      <description>&lt;p&gt;Introdução&lt;br&gt;&#xA;Nos dias mais quentes, um gole de café gelado pode ser tão revigorante quanto um mergulho no mar. Se você está cansado das cápsulas de sempre e quer elevar o café gelado a outro nível, chegou ao lugar certo! Vamos explorar juntos receitas, ingredientes e toques especiais que transformam a simples bebida fria em uma experiência digna de cafeteria. Prepare seu moedor ou sua máquina, porque o blog “Café com GM” vai te ensinar a se refrescar sem sair de casa.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Descubra o Segredo do Café Perfeito com a Prensa Francesa</title>
-      <link>https://cafecom.georgemoura.com.br/posts/descubra-o-segredo-do-cafe-perfeito-com-a-prensa-francesa/</link>
+      <link>http://localhost:1313/posts/descubra-o-segredo-do-cafe-perfeito-com-a-prensa-francesa/</link>
       <pubDate>Tue, 25 Nov 2025 20:49:00 +0000</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/descubra-o-segredo-do-cafe-perfeito-com-a-prensa-francesa/</guid>
-      <description>Se você é apaixonado por café e deseja extrair o máximo de aroma e sabor dos seus grãos, a prensa francesa pode ser sua melhor amiga na cozinha. Simples de usar e capaz de revelar nuances incríveis, esse método de extração conquista baristas e entusiastas ao redor do mundo. Neste artigo do Café com GM, vamos mostrar por que investir numa boa prensa francesa vale cada centavo e como preparar, passo a passo, o café perfeito que vai transformar suas manhãs (e suas tardes também!</description>
+      <guid>http://localhost:1313/posts/descubra-o-segredo-do-cafe-perfeito-com-a-prensa-francesa/</guid>
+      <description>&lt;p&gt;Se você é apaixonado por café e deseja extrair o máximo de aroma e sabor dos seus grãos, a prensa francesa pode ser sua melhor amiga na cozinha. Simples de usar e capaz de revelar nuances incríveis, esse método de extração conquista baristas e entusiastas ao redor do mundo. Neste artigo do Café com GM, vamos mostrar por que investir numa boa prensa francesa vale cada centavo e como preparar, passo a passo, o café perfeito que vai transformar suas manhãs (e suas tardes também!).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Como Escolher um Café de Qualidade: 5 Dicas Práticas para Identificar Cafés Especiais</title>
-      <link>https://cafecom.georgemoura.com.br/posts/como-escolher-um-cafe-de-qualidade-5-dicas-praticas-para-identificar-cafes-especiais/</link>
+      <link>http://localhost:1313/posts/como-escolher-um-cafe-de-qualidade-5-dicas-praticas-para-identificar-cafes-especiais/</link>
       <pubDate>Sun, 23 Nov 2025 22:48:57 +0000</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/como-escolher-um-cafe-de-qualidade-5-dicas-praticas-para-identificar-cafes-especiais/</guid>
-      <description>Se, como eu, você começou a sua jornada curtindo cafés expressos de cápsulas Nespresso e 3 Corações, deve ter percebido que há um universo de sabores muito além da padronização industrial. Foi exatamente esse “sacode” sensorial que me fez mergulhar no mundo dos cafés especiais. Neste artigo do Café com GM, você vai encontrar dicas práticas e divertidas para reconhecer um café de qualidade ainda na embalagem, entender os termos mais comuns e, no final, provar com confiança aquela xícara perfeita.</description>
+      <guid>http://localhost:1313/posts/como-escolher-um-cafe-de-qualidade-5-dicas-praticas-para-identificar-cafes-especiais/</guid>
+      <description>&lt;p&gt;Se, como eu, você começou a sua jornada curtindo cafés expressos de cápsulas Nespresso e 3 Corações, deve ter percebido que há um universo de sabores muito além da padronização industrial. Foi exatamente esse “sacode” sensorial que me fez mergulhar no mundo dos cafés especiais. Neste artigo do Café com GM, você vai encontrar dicas práticas e divertidas para reconhecer um café de qualidade ainda na embalagem, entender os termos mais comuns e, no final, provar com confiança aquela xícara perfeita. Vamos juntos nessa experiência repleta de aromas e descobertas!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A Paixão Mundial do Café: Da Origem à Conquista</title>
-      <link>https://cafecom.georgemoura.com.br/posts/a-paixao-mundial-do-cafe-da-origem-a-conquista/</link>
+      <link>http://localhost:1313/posts/a-paixao-mundial-do-cafe-da-origem-a-conquista/</link>
       <pubDate>Mon, 03 Nov 2025 06:57:15 +0000</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/a-paixao-mundial-do-cafe-da-origem-a-conquista/</guid>
-      <description>Toda vez que tomo meu café de manhã, penso em quantas mãos e quantos séculos passaram até aquela xícara chegar até mim. A história do café é daquelas que prendem a atenção: começa numa lenda de cabras dançantes na Etiópia e termina, séculos depois, na sua cafeteira. Deixa eu te contar como essa bebida saiu de um pasto africano e conquistou o planeta.
-A lenda que começou tudo Reza a lenda que um pastor etíope chamado Kaldi percebeu que suas cabras ficavam agitadas depois de comer os frutos vermelhos de um arbusto estranho.</description>
+      <guid>http://localhost:1313/posts/a-paixao-mundial-do-cafe-da-origem-a-conquista/</guid>
+      <description>&lt;p&gt;Toda vez que tomo meu café de manhã, penso em quantas mãos e quantos séculos passaram até aquela xícara chegar até mim. A história do café é daquelas que prendem a atenção: começa numa lenda de cabras dançantes na Etiópia e termina, séculos depois, na sua cafeteira. Deixa eu te contar como essa bebida saiu de um pasto africano e conquistou o planeta.&lt;/p&gt;&#xA;&lt;h3 id=&#34;a-lenda-que-começou-tudo&#34;&gt;A lenda que começou tudo&lt;/h3&gt;&#xA;&lt;p&gt;Reza a lenda que um pastor etíope chamado Kaldi percebeu que suas cabras ficavam agitadas depois de comer os frutos vermelhos de um arbusto estranho. Curioso, ele mesmo experimentou os grãos e sentiu o mesmo efeito estimulante. Não dá para confirmar se a história é 100% verdadeira, mas os historiadores concordam num ponto: foi na Etiópia, há cerca de mil anos, que o cafeeiro foi domesticado pela primeira vez.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>O Que Seria o Café Gourmet? Desvendando por que Ele É Mais Valorizado</title>
-      <link>https://cafecom.georgemoura.com.br/posts/o-que-seria-o-cafe-gourmet/</link>
+      <link>http://localhost:1313/posts/o-que-seria-o-cafe-gourmet/</link>
       <pubDate>Mon, 13 Oct 2025 20:23:37 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/o-que-seria-o-cafe-gourmet/</guid>
-      <description>Toda vez que vejo &amp;ldquo;café gourmet&amp;rdquo; na embalagem, penso: será que isso é só marketing ou tem critério real por trás? Pesquisando e testando, descobri que existe, sim, uma diferença concreta. Deixa eu te contar o que realmente define um café gourmet.
-O que separa o gourmet do café comum A principal diferença está na qualidade do grão. Café gourmet é feito com sementes selecionadas, geralmente de uma única origem ou de lotes cuidadosamente escolhidos, sem misturar grãos de qualidades diferentes como acontece em blends comerciais baratos.</description>
+      <guid>http://localhost:1313/posts/o-que-seria-o-cafe-gourmet/</guid>
+      <description>&lt;p&gt;Toda vez que vejo &amp;ldquo;café gourmet&amp;rdquo; na embalagem, penso: será que isso é só marketing ou tem critério real por trás? Pesquisando e testando, descobri que existe, sim, uma diferença concreta. Deixa eu te contar o que realmente define um café gourmet.&lt;/p&gt;&#xA;&lt;h3 id=&#34;o-que-separa-o-gourmet-do-café-comum&#34;&gt;O que separa o gourmet do café comum&lt;/h3&gt;&#xA;&lt;p&gt;A principal diferença está na qualidade do grão. Café gourmet é feito com sementes selecionadas, geralmente de uma única origem ou de lotes cuidadosamente escolhidos, sem misturar grãos de qualidades diferentes como acontece em blends comerciais baratos. Isso resulta em:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Os Melhores Acessórios para Preparar Café em Casa</title>
-      <link>https://cafecom.georgemoura.com.br/posts/os-melhores-acessorios-para-preparar-cafe-em-casa/</link>
+      <link>http://localhost:1313/posts/os-melhores-acessorios-para-preparar-cafe-em-casa/</link>
       <pubDate>Wed, 31 May 2023 07:57:37 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/os-melhores-acessorios-para-preparar-cafe-em-casa/</guid>
-      <description>Não precisa gastar uma fortuna para melhorar o café que você faz em casa, mas alguns acessórios realmente valem o investimento. Deixa eu te contar quais eu recomendaria, na ordem que eu mesmo compraria se estivesse começando do zero.
-Moedor de café: o primeiro investimento Se eu pudesse recomendar só um item dessa lista, seria esse. Grão moído perde aroma rápido, então moer na hora do preparo é o que mais impacta o sabor final.</description>
+      <guid>http://localhost:1313/posts/os-melhores-acessorios-para-preparar-cafe-em-casa/</guid>
+      <description>&lt;p&gt;Não precisa gastar uma fortuna para melhorar o café que você faz em casa, mas alguns acessórios realmente valem o investimento. Deixa eu te contar quais eu recomendaria, na ordem que eu mesmo compraria se estivesse começando do zero.&lt;/p&gt;&#xA;&lt;h3 id=&#34;moedor-de-café-o-primeiro-investimento&#34;&gt;Moedor de café: o primeiro investimento&lt;/h3&gt;&#xA;&lt;p&gt;Se eu pudesse recomendar só um item dessa lista, seria esse. Grão moído perde aroma rápido, então moer na hora do preparo é o que mais impacta o sabor final. Um moedor de qualidade ainda permite ajustar a moagem conforme o método — fina para espresso, grossa para prensa francesa. &lt;a href=&#34;https://amzn.to/3OMui9m&#34;&gt;Algumas opções por aqui&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Os Benefícios do Café: Descubra Como o Café Pode Impactar a sua Saúde</title>
-      <link>https://cafecom.georgemoura.com.br/posts/os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude/</link>
+      <link>http://localhost:1313/posts/os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude/</link>
       <pubDate>Mon, 29 May 2023 20:37:22 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude/</guid>
-      <description>Café não é só aquele empurrãozinho de manhã — quando consumido com moderação, ele carrega uma lista de benefícios respaldados por estudos científicos que vale a pena conhecer. Deixa eu te contar o que a ciência já descobriu sobre essa bebida que a gente ama tanto.
-Estímulo mental e mais concentração A cafeína é o motivo mais óbvio: ela melhora o estado de alerta, ajuda na concentração e combate a sensação de fadiga.</description>
+      <guid>http://localhost:1313/posts/os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude/</guid>
+      <description>&lt;p&gt;Café não é só aquele empurrãozinho de manhã — quando consumido com moderação, ele carrega uma lista de benefícios respaldados por estudos científicos que vale a pena conhecer. Deixa eu te contar o que a ciência já descobriu sobre essa bebida que a gente ama tanto.&lt;/p&gt;&#xA;&lt;h3 id=&#34;estímulo-mental-e-mais-concentração&#34;&gt;Estímulo mental e mais concentração&lt;/h3&gt;&#xA;&lt;p&gt;A cafeína é o motivo mais óbvio: ela melhora o estado de alerta, ajuda na concentração e combate a sensação de fadiga. Não é à toa que tanta gente recorre ao café antes de uma reunião importante ou de uma tarefa que exige foco. Na minha experiência, uma xícara bem feita rende bem mais concentração do que qualquer outro estimulante que já testei.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Guia de Preparo de Café: Métodos e Técnicas para Saborear a Bebida Perfeita</title>
-      <link>https://cafecom.georgemoura.com.br/posts/guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita/</link>
+      <link>http://localhost:1313/posts/guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita/</link>
       <pubDate>Sun, 28 May 2023 19:17:39 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita/</guid>
-      <description>Uma dúvida que sempre recebo é: &amp;ldquo;qual é o melhor jeito de fazer café?&amp;rdquo; E a resposta curta é: não existe um único melhor, existe o método certo para o que você quer naquele momento. Deixa eu te contar as diferenças entre os principais métodos para você escolher o seu.
-Espresso: intensidade em pouco tempo O espresso usa água quente sob alta pressão passando por café moído bem fino. O resultado é uma bebida concentrada, encorpada, com aquela camada de crema por cima.</description>
+      <guid>http://localhost:1313/posts/guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita/</guid>
+      <description>&lt;p&gt;Uma dúvida que sempre recebo é: &amp;ldquo;qual é o melhor jeito de fazer café?&amp;rdquo; E a resposta curta é: não existe um único melhor, existe o método certo para o que você quer naquele momento. Deixa eu te contar as diferenças entre os principais métodos para você escolher o seu.&lt;/p&gt;&#xA;&lt;h3 id=&#34;espresso-intensidade-em-pouco-tempo&#34;&gt;Espresso: intensidade em pouco tempo&lt;/h3&gt;&#xA;&lt;p&gt;O espresso usa água quente sob alta pressão passando por café moído bem fino. O resultado é uma bebida concentrada, encorpada, com aquela camada de crema por cima. Para fazer em casa:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Café Americano: Apreciando a Simplicidade e a Intensidade do Café</title>
-      <link>https://cafecom.georgemoura.com.br/posts/cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe/</link>
+      <link>http://localhost:1313/posts/cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe/</link>
       <pubDate>Sun, 28 May 2023 14:24:59 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe/</guid>
-      <description>Café americano é provavelmente a bebida mais mal compreendida do mundo do café: muita gente acha que é só &amp;ldquo;café fraco&amp;rdquo;, mas não é bem assim. Na minha opinião, ele merece mais respeito do que recebe. Deixa eu te contar de onde ele veio e como fazer um bom em casa.
-De onde vem o café americano A história mais contada é que o nome surgiu na Segunda Guerra Mundial, quando soldados americanos estacionados na Europa achavam o espresso local forte demais para o paladar deles.</description>
+      <guid>http://localhost:1313/posts/cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe/</guid>
+      <description>&lt;p&gt;Café americano é provavelmente a bebida mais mal compreendida do mundo do café: muita gente acha que é só &amp;ldquo;café fraco&amp;rdquo;, mas não é bem assim. Na minha opinião, ele merece mais respeito do que recebe. Deixa eu te contar de onde ele veio e como fazer um bom em casa.&lt;/p&gt;&#xA;&lt;h3 id=&#34;de-onde-vem-o-café-americano&#34;&gt;De onde vem o café americano&lt;/h3&gt;&#xA;&lt;p&gt;A história mais contada é que o nome surgiu na Segunda Guerra Mundial, quando soldados americanos estacionados na Europa achavam o espresso local forte demais para o paladar deles. Para amenizar, passaram a diluir o café com água quente — e a bebida ganhou o apelido de &amp;ldquo;café à americana&amp;rdquo;. Não dá para confirmar cada detalhe dessa história, mas ela ajuda a explicar por que, até hoje, associamos o americano a uma versão mais suave do espresso.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Café Latte: A Harmonia Entre Café, Leite e Sabor</title>
-      <link>https://cafecom.georgemoura.com.br/posts/cafe-latte-a-harmonia-entre-cafe-leite-e-sabor/</link>
+      <link>http://localhost:1313/posts/cafe-latte-a-harmonia-entre-cafe-leite-e-sabor/</link>
       <pubDate>Sat, 27 May 2023 08:09:23 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/cafe-latte-a-harmonia-entre-cafe-leite-e-sabor/</guid>
-      <description>Se cappuccino é o equilíbrio entre café, leite e espuma em partes iguais, o latte é a versão mais suave e cremosa dessa história. Na minha opinião, é a bebida perfeita para quem quer sentir o sabor do café sem o golpe de intensidade do espresso puro. Deixa eu te contar o que diferencia um bom latte.
-O que é, afinal, um café latte Café latte, ou &amp;ldquo;café com leite&amp;rdquo; em italiano, leva bem mais leite vaporizado do que café — geralmente na proporção de uma parte de espresso para três ou quatro partes de leite.</description>
+      <guid>http://localhost:1313/posts/cafe-latte-a-harmonia-entre-cafe-leite-e-sabor/</guid>
+      <description>&lt;p&gt;Se cappuccino é o equilíbrio entre café, leite e espuma em partes iguais, o latte é a versão mais suave e cremosa dessa história. Na minha opinião, é a bebida perfeita para quem quer sentir o sabor do café sem o golpe de intensidade do espresso puro. Deixa eu te contar o que diferencia um bom latte.&lt;/p&gt;&#xA;&lt;h3 id=&#34;o-que-é-afinal-um-café-latte&#34;&gt;O que é, afinal, um café latte&lt;/h3&gt;&#xA;&lt;p&gt;Café latte, ou &amp;ldquo;café com leite&amp;rdquo; em italiano, leva bem mais leite vaporizado do que café — geralmente na proporção de uma parte de espresso para três ou quatro partes de leite. Isso resulta numa bebida mais leve, cremosa e com uma fina camada de espuma no topo, bem diferente da espuma grossa do cappuccino.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Café Cappuccino: A Deliciosa Combinação de Café, Leite e Espuma</title>
-      <link>https://cafecom.georgemoura.com.br/posts/cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma/</link>
+      <link>http://localhost:1313/posts/cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma/</link>
       <pubDate>Fri, 26 May 2023 20:21:42 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma/</guid>
-      <description>Cappuccino é uma daquelas bebidas que parecem simples, mas escondem uma técnica que faz toda a diferença no resultado final. Na minha opinião, um bom cappuccino não é sobre ter uma máquina cara, é sobre entender a proporção certa entre café, leite e espuma. Deixa eu te contar como funciona.
-O que define um cappuccino de verdade Diferente do que muita gente pensa, cappuccino não é só &amp;ldquo;café com leite e espuma em cima&amp;rdquo;.</description>
+      <guid>http://localhost:1313/posts/cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma/</guid>
+      <description>&lt;p&gt;Cappuccino é uma daquelas bebidas que parecem simples, mas escondem uma técnica que faz toda a diferença no resultado final. Na minha opinião, um bom cappuccino não é sobre ter uma máquina cara, é sobre entender a proporção certa entre café, leite e espuma. Deixa eu te contar como funciona.&lt;/p&gt;&#xA;&lt;h3 id=&#34;o-que-define-um-cappuccino-de-verdade&#34;&gt;O que define um cappuccino de verdade&lt;/h3&gt;&#xA;&lt;p&gt;Diferente do que muita gente pensa, cappuccino não é só &amp;ldquo;café com leite e espuma em cima&amp;rdquo;. A tradição italiana define uma proporção bem específica: partes iguais de espresso, leite vaporizado e espuma de leite. Isso é o que garante o equilíbrio entre a força do café e a cremosidade do leite, sem que um sabor domine o outro.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Café Robusta: Força e Intensidade em Cada Gole</title>
-      <link>https://cafecom.georgemoura.com.br/posts/cafe-robusta-forca-intensidade-em-cada-gole/</link>
+      <link>http://localhost:1313/posts/cafe-robusta-forca-intensidade-em-cada-gole/</link>
       <pubDate>Fri, 26 May 2023 05:25:12 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/cafe-robusta-forca-intensidade-em-cada-gole/</guid>
-      <description>Robusta costuma levar fama de &amp;ldquo;café inferior&amp;rdquo;, mas, na minha opinião, essa é uma injustiça. Ele só tem um perfil diferente do arábica — e para quem gosta de café forte, encorpado, com aquele empurrão extra de cafeína, é praticamente perfeito. Deixa eu te contar por que esse grão merece mais crédito do que recebe.
-O que caracteriza o café robusta Cultivado amplamente em regiões mais quentes e de altitude mais baixa, o robusta se destaca por características bem marcadas:</description>
+      <guid>http://localhost:1313/posts/cafe-robusta-forca-intensidade-em-cada-gole/</guid>
+      <description>&lt;p&gt;Robusta costuma levar fama de &amp;ldquo;café inferior&amp;rdquo;, mas, na minha opinião, essa é uma injustiça. Ele só tem um perfil diferente do arábica — e para quem gosta de café forte, encorpado, com aquele empurrão extra de cafeína, é praticamente perfeito. Deixa eu te contar por que esse grão merece mais crédito do que recebe.&lt;/p&gt;&#xA;&lt;h3 id=&#34;o-que-caracteriza-o-café-robusta&#34;&gt;O que caracteriza o café robusta&lt;/h3&gt;&#xA;&lt;p&gt;Cultivado amplamente em regiões mais quentes e de altitude mais baixa, o robusta se destaca por características bem marcadas:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Café Espresso: A Intensidade em Uma Xícara</title>
-      <link>https://cafecom.georgemoura.com.br/posts/cafe-expresso-a-intensidade-em-uma-xicara/</link>
+      <link>http://localhost:1313/posts/cafe-expresso-a-intensidade-em-uma-xicara/</link>
       <pubDate>Thu, 25 May 2023 20:29:25 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/cafe-expresso-a-intensidade-em-uma-xicara/</guid>
-      <description>Espresso é a base de quase tudo no mundo do café — cappuccino, latte, macchiato, americano, todos partem dele. Na minha opinião, entender o espresso é entender metade do universo das bebidas de café. Deixa eu te contar o que faz essa xicrinha pequena carregar tanta intensidade.
-O que torna o espresso tão especial Originário da Itália, o espresso é preparado forçando água quente sob alta pressão através do café moído bem fino.</description>
+      <guid>http://localhost:1313/posts/cafe-expresso-a-intensidade-em-uma-xicara/</guid>
+      <description>&lt;p&gt;Espresso é a base de quase tudo no mundo do café — cappuccino, latte, macchiato, americano, todos partem dele. Na minha opinião, entender o espresso é entender metade do universo das bebidas de café. Deixa eu te contar o que faz essa xicrinha pequena carregar tanta intensidade.&lt;/p&gt;&#xA;&lt;h3 id=&#34;o-que-torna-o-espresso-tão-especial&#34;&gt;O que torna o espresso tão especial&lt;/h3&gt;&#xA;&lt;p&gt;Originário da Itália, o espresso é preparado forçando água quente sob alta pressão através do café moído bem fino. Esse processo, que dura entre 25 e 30 segundos, extrai o máximo de sabor e óleos do grão em pouquíssimo tempo. O resultado é uma bebida concentrada, encorpada e com uma característica que só o espresso tem: a crema.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Café Arábica: Apreciando a Qualidade e o Sabor Superior</title>
-      <link>https://cafecom.georgemoura.com.br/posts/cafe-arabica/</link>
+      <link>http://localhost:1313/posts/cafe-arabica/</link>
       <pubDate>Thu, 25 May 2023 06:10:06 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/cafe-arabica/</guid>
-      <description>Se você já ouviu alguém dizer &amp;ldquo;esse café é 100% arábica&amp;rdquo; como se fosse um selo de qualidade, tem razão de sobra. Café arábica é considerado um dos melhores tipos de café que existem — e, na minha opinião, depois que você experimenta um bom arábica, fica difícil voltar para qualquer coisa mais amarga. Deixa eu te contar o que torna esse grão tão especial.
-O que faz o arábica ser tão elogiado O café arábica é originário das terras altas da Etiópia e se espalhou pelo mundo justamente por conta do seu perfil de sabor mais suave e complexo.</description>
+      <guid>http://localhost:1313/posts/cafe-arabica/</guid>
+      <description>&lt;p&gt;Se você já ouviu alguém dizer &amp;ldquo;esse café é 100% arábica&amp;rdquo; como se fosse um selo de qualidade, tem razão de sobra. Café arábica é considerado um dos melhores tipos de café que existem — e, na minha opinião, depois que você experimenta um bom arábica, fica difícil voltar para qualquer coisa mais amarga. Deixa eu te contar o que torna esse grão tão especial.&lt;/p&gt;&#xA;&lt;h3 id=&#34;o-que-faz-o-arábica-ser-tão-elogiado&#34;&gt;O que faz o arábica ser tão elogiado&lt;/h3&gt;&#xA;&lt;p&gt;O café arábica é originário das terras altas da Etiópia e se espalhou pelo mundo justamente por conta do seu perfil de sabor mais suave e complexo. Algumas características ajudam a explicar essa fama:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tipos de Café: Um Guia Rápido para Não se Perder no Cardápio</title>
-      <link>https://cafecom.georgemoura.com.br/posts/tipos-de-cafe/</link>
+      <link>http://localhost:1313/posts/tipos-de-cafe/</link>
       <pubDate>Tue, 23 May 2023 23:01:37 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/tipos-de-cafe/</guid>
-      <description>Já ficou paralisado na frente do cardápio de uma cafeteria sem saber a diferença entre latte, cappuccino e americano? Eu já passei por isso mais de uma vez. Deixa eu te dar um panorama rápido dos principais tipos de café, para você nunca mais travar na hora de pedir.
-Primeiro, os grãos: arábica e robusta Antes de falar das bebidas, vale entender os grãos que dão origem a elas:
- Arábica: sabor suave, aroma marcante, acidez equilibrada e menos cafeína.</description>
+      <guid>http://localhost:1313/posts/tipos-de-cafe/</guid>
+      <description>&lt;p&gt;Já ficou paralisado na frente do cardápio de uma cafeteria sem saber a diferença entre latte, cappuccino e americano? Eu já passei por isso mais de uma vez. Deixa eu te dar um panorama rápido dos principais tipos de café, para você nunca mais travar na hora de pedir.&lt;/p&gt;&#xA;&lt;h3 id=&#34;primeiro-os-grãos-arábica-e-robusta&#34;&gt;Primeiro, os grãos: arábica e robusta&lt;/h3&gt;&#xA;&lt;p&gt;Antes de falar das bebidas, vale entender os grãos que dão origem a elas:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Arábica:&lt;/strong&gt; sabor suave, aroma marcante, acidez equilibrada e menos cafeína. É o grão mais valorizado e o mais comum em cafés de qualidade.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Robusta:&lt;/strong&gt; sabor mais forte e amargo, bem mais cafeína e um creme mais espesso quando usado em espresso. Costuma ser mais barato e é comum em blends e café solúvel.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Na prática, boa parte dos blends de espresso mistura os dois: arábica para o sabor, robusta para o corpo e a crema.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dicas de Armazenamento do Pó de Café: Mantendo o Sabor Intenso em Cada Xícara</title>
-      <link>https://cafecom.georgemoura.com.br/posts/dicas-de-armazenamento-do-po-do-cafe/</link>
+      <link>http://localhost:1313/posts/dicas-de-armazenamento-do-po-do-cafe/</link>
       <pubDate>Tue, 23 May 2023 06:50:25 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/dicas-de-armazenamento-do-po-do-cafe/</guid>
-      <description>Já escrevi por aqui sobre como guardar grãos inteiros, mas se você é do time que prefere comprar o café já moído, vale um cuidado a mais. Deixa eu te contar por que o pó de café estraga mais rápido — e como minimizar essa perda.
-Por que o pó de café perde qualidade mais rápido A moagem multiplica a área de contato do café com o ar. Um grão inteiro tem uma superfície relativamente pequena exposta; o mesmo grão moído tem centenas de pedacinhos, cada um perdendo aroma pelo contato com o oxigênio.</description>
+      <guid>http://localhost:1313/posts/dicas-de-armazenamento-do-po-do-cafe/</guid>
+      <description>&lt;p&gt;Já escrevi por aqui sobre como guardar grãos inteiros, mas se você é do time que prefere comprar o café já moído, vale um cuidado a mais. Deixa eu te contar por que o pó de café estraga mais rápido — e como minimizar essa perda.&lt;/p&gt;&#xA;&lt;h3 id=&#34;por-que-o-pó-de-café-perde-qualidade-mais-rápido&#34;&gt;Por que o pó de café perde qualidade mais rápido&lt;/h3&gt;&#xA;&lt;p&gt;A moagem multiplica a área de contato do café com o ar. Um grão inteiro tem uma superfície relativamente pequena exposta; o mesmo grão moído tem centenas de pedacinhos, cada um perdendo aroma pelo contato com o oxigênio. Na prática, isso significa que o pó de café perde frescor muito mais rápido do que o grão — às vezes em questão de dias, não semanas.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dicas de Armazenamento de Café: Mantendo a Frescura e o Sabor dos Seus Grãos</title>
-      <link>https://cafecom.georgemoura.com.br/posts/dicas-de-armazenamento-do-cafe/</link>
+      <link>http://localhost:1313/posts/dicas-de-armazenamento-do-cafe/</link>
       <pubDate>Sun, 21 May 2023 19:53:14 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/dicas-de-armazenamento-do-cafe/</guid>
-      <description>Comprar um grão de café bom e guardar errado é jogar dinheiro fora. Aprendi isso na prática: já estraguei mais de um pacote de grão especial só por guardar no lugar errado. Deixa eu te contar o que funciona de verdade para manter os grãos frescos por mais tempo.
-Os quatro inimigos da frescura Antes das dicas, vale entender o problema: ar, luz, umidade e calor são os responsáveis por deteriorar o café rapidamente.</description>
+      <guid>http://localhost:1313/posts/dicas-de-armazenamento-do-cafe/</guid>
+      <description>&lt;p&gt;Comprar um grão de café bom e guardar errado é jogar dinheiro fora. Aprendi isso na prática: já estraguei mais de um pacote de grão especial só por guardar no lugar errado. Deixa eu te contar o que funciona de verdade para manter os grãos frescos por mais tempo.&lt;/p&gt;&#xA;&lt;h3 id=&#34;os-quatro-inimigos-da-frescura&#34;&gt;Os quatro inimigos da frescura&lt;/h3&gt;&#xA;&lt;p&gt;Antes das dicas, vale entender o problema: ar, luz, umidade e calor são os responsáveis por deteriorar o café rapidamente. Cada contato prolongado com um desses elementos rouba um pouco do aroma e do sabor do grão. Então, na prática, toda dica de armazenamento gira em torno de proteger o café dessas quatro coisas.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bem-vindo ao Café com GM</title>
-      <link>https://cafecom.georgemoura.com.br/posts/bem-vindo/</link>
+      <link>http://localhost:1313/posts/bem-vindo/</link>
       <pubDate>Sun, 21 May 2023 18:53:56 -0300</pubDate>
-      
-      <guid>https://cafecom.georgemoura.com.br/posts/bem-vindo/</guid>
-      <description>Se você chegou até aqui, provavelmente também gosta de uma boa xícara de café — seja ela tirada de uma Nespresso, de uma prensa francesa ou de um simples coador de pano. Seja bem-vindo ao Café com GM! Deixa eu te contar rapidinho do que se trata esse espaço.
-Como esse blog começou Comecei essa jornada há pouco tempo, experimentando espressos de máquinas simples como Nespresso e 3 Corações. O que era curiosidade virou hobby, e o hobby virou essa vontade de pesquisar receitas, métodos de preparo e a história por trás de cada xícara.</description>
+      <guid>http://localhost:1313/posts/bem-vindo/</guid>
+      <description>&lt;p&gt;Se você chegou até aqui, provavelmente também gosta de uma boa xícara de café — seja ela tirada de uma Nespresso, de uma prensa francesa ou de um simples coador de pano. Seja bem-vindo ao &lt;strong&gt;Café com GM&lt;/strong&gt;! Deixa eu te contar rapidinho do que se trata esse espaço.&lt;/p&gt;&#xA;&lt;h3 id=&#34;como-esse-blog-começou&#34;&gt;Como esse blog começou&lt;/h3&gt;&#xA;&lt;p&gt;Comecei essa jornada há pouco tempo, experimentando espressos de máquinas simples como Nespresso e 3 Corações. O que era curiosidade virou hobby, e o hobby virou essa vontade de pesquisar receitas, métodos de preparo e a história por trás de cada xícara. Não sou especialista de escola de barista, sou só alguém que aprendeu no dia a dia — e é exatamente por isso que escrevo pensando em quem está começando agora, do mesmo jeito que eu comecei.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
