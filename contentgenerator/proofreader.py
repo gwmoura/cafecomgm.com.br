@@ -8,7 +8,7 @@ def revisar_artigo(nome_arquivo):
 
     if not os.path.exists(caminho_entrada):
         print("❌ Arquivo não encontrado.")
-        return
+        return None
 
     with open(caminho_entrada, "r", encoding="utf-8") as f:
         texto = f.read()
@@ -26,6 +26,7 @@ def revisar_artigo(nome_arquivo):
         f.write(resposta)
 
     print(f"✅ Revisão salva em: {caminho_saida}")
+    return resposta
 
 
 if __name__ == "__main__":
