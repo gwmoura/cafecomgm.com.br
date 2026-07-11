@@ -34,7 +34,7 @@
 	<div class="posts-grid">
 	{{ range $i, $p := $paginator.Pages }}
 		{{ partial "postcard.html" (dict "post" $p "index" $i) }}
-		{{ if and (eq (mod (add $i 1) 4) 0) (lt (add $i 1) (len $paginator.Pages)) }}
+		{{ if and (eq (mod (add $i 1) 3) 0) (lt (add $i 1) (len $paginator.Pages)) }}
 			{{ partial "google/ad-unit.html" (dict "site" $.Site "slot" $adSlot "inFeed" true) }}
 		{{ end }}
 	{{ end }}
