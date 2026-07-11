@@ -9,9 +9,9 @@ O `cd` precisa cair dentro de `contentgenerator/` (os caminhos usados pelos scri
 1. **Repõe temas**: para cada categoria com menos de 3 temas ainda não usados, chama `topic_researcher.py` para pesquisar mais via LLM antes de sortear.
 2. **Escolhe e escreve**: sorteia um tema não usado (ou pesquisa um novo, se tudo estiver esgotado) e gera o artigo com `writer.py`.
 3. **Revisa**: roda `proofreader.py` sobre o artigo gerado. Se o `score` retornado for menor que 6/10, o post **não é publicado** — fica em `outputs/` para ajuste manual (`make rewrite`), e o tema segue marcado como usado (o próximo run sorteia outro tema).
-4. **Publica localmente**: se aprovado na revisão, converte o artigo em post Hugo (`post_writer.py`) em `content/posts/` e faz `git commit` (apenas local — **não** dá `git push` nem `hugo deploy` automaticamente).
+4. **Publica localmente**: se aprovado na revisão, converte o artigo em post Hugo (`post_writer.py`) em `content/posts/` e faz `git commit` (apenas local — **não** dá `git push` automaticamente).
 
-Isso significa que o bot roda sozinho todo dia, mas a publicação real no site (`git push` + `make deploy`) continua sendo um passo manual seu, para revisar o conteúdo antes de ir ao ar.
+Isso significa que o bot roda sozinho todo dia, mas a publicação real no site continua sendo um passo manual seu: um `git push` para a `master` (o Cloudflare Pages builda e publica sozinho a partir daí), para você revisar o conteúdo antes de ir ao ar.
 
 #### Como funciona o controle de temas repetidos
 
