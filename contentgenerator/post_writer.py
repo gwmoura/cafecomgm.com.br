@@ -6,12 +6,14 @@ from helpers import slugify_topic
 OUTPUTS_DIR = os.path.join(os.path.dirname(__file__), 'outputs')
 POSTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../content/posts'))
 
+TITLE_MARKER_RE = r'^[*\s]*T[íi]tulos?[*\s]*:?[*\s]*(.*)$'
+
 def extract_title_and_content(md_text):
-	# Tenta extrair o título entre **Título:** ou similar
-	match = re.search(r'\*\*T[íi]tulo:?\*\*\s*(.*)', md_text)
+	# Tenta extrair o título a partir de **Título:**, **Títulos:**, Título: ou variações sem markdown
+	match = re.search(TITLE_MARKER_RE, md_text, re.MULTILINE)
 	title = match.group(1).strip() if match else 'Post sem título'
 	# Remove a linha do título do conteúdo
-	content = re.sub(r'\*\*T[íi]tulo:?\*\*.*\n?', '', md_text, count=1)
+	content = re.sub(TITLE_MARKER_RE, '', md_text, count=1, flags=re.MULTILINE)
 	return title, content.strip()
 
 def extract_description(md_text):
