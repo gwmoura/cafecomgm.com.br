@@ -7,6 +7,9 @@ OUTPUTS_DIR = os.path.join(os.path.dirname(__file__), 'outputs')
 POSTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../content/posts'))
 
 TITLE_MARKER_RE = r'^[*\s]*T[íi]tulos?[*\s]*:?[*\s]*(.*)$'
+META_DESCRIPTION_MARKER_RE = r'^[*\s]*Meta\s+descri(?:c|ç)(?:a|ã)o[*\s]*:?[*\s]*'
+DESCRIPTION_MARKER_RE = r'^[*\s]*Palavras-chave\s+naturais[*\s]*:?[*\s]*'
+KEYWORDS_MARKER_RE = r'^[*\s]*Palavras-chave\s+SEO[*\s]*(?:\(\d+\))?[*\s]*:?[*\s]*'
 
 def extract_title_and_content(md_text):
 	# Tenta extrair o título a partir de **Título:**, **Títulos:**, Título: ou variações sem markdown
@@ -17,20 +20,38 @@ def extract_title_and_content(md_text):
 	return title, content.strip()
 
 def extract_description(md_text):
-	match = re.search(r'\*\*Palavras-chave naturais:?\*\*\s*(.*?)(\n|$)', md_text)
+	# Prioriza "Meta descrição" (valor na mesma linha ou na linha seguinte);
+	# na ausência, usa "Palavras-chave naturais" como alternativa
+	match = re.search(META_DESCRIPTION_MARKER_RE + r'(.*)$', md_text, re.MULTILINE)
+	if match:
+		description = match.group(1).strip()
+		if description:
+			return description
+		next_line = md_text[match.end():].lstrip('\n').split('\n', 1)[0].strip()
+		if next_line:
+			return next_line
+
+	match = re.search(DESCRIPTION_MARKER_RE + r'(.*)', md_text, re.MULTILINE)
 	if match:
 		return match.group(1).strip()
 	return ''
 
 def extract_keywords(md_text):
+	# Aceita **Palavras-chave SEO (3):**, Palavras-chave SEO, sem markdown, sem "(3)" etc.
 	# Procura tudo após o marcador até o próximo bloco ou fim do texto
-	match = re.search(r'\*\*Palavras-chave SEO \(3\):\*\*\s*([\s\S]+?)(\n\*\*|$)', md_text)
-	if match:
-		block = match.group(1)
-		# Extrai todas as linhas numeradas
-		keywords = re.findall(r'\d+\.\s*(.*)', block)
-		return [kw.strip() for kw in keywords if kw.strip()]
-	return []
+	match = re.search(KEYWORDS_MARKER_RE + r'([\s\S]+?)(?:\n[ \t]*\n|\n\*\*|\Z)', md_text, re.MULTILINE)
+	if not match:
+		return []
+	block = match.group(1)
+	# Extrai as linhas numeradas (1. termo); se não houver numeração, usa cada linha não vazia
+	# (removendo marcadores de lista como "-" ou "*", se houver)
+	keywords = re.findall(r'\d+\.\s*(.*)', block)
+	if not keywords:
+		keywords = [
+			re.sub(r'^[-*]\s*', '', line.strip())
+			for line in block.splitlines() if line.strip()
+		]
+	return [kw.strip() for kw in keywords if kw.strip()]
 
 def convert_to_hugo_post(md_file):
 	with open(md_file, 'r', encoding='utf-8') as f:
@@ -39,9 +60,12 @@ def convert_to_hugo_post(md_file):
 	description = extract_description(md_text)
 	keywords = extract_keywords(md_text)
 	# Remove as seções de description e keywords do conteúdo
-	content = re.sub(r'\*\*Palavras-chave naturais:?\*\*[\s\S]*?(\n\*\*|$)', '', content)
-	content = re.sub(r'\*\*Palavras-chave SEO \(3\):\*\*[\s\S]+', '', content)
-	content = re.sub(r'Palavras-chave SEO \(3\):\*\*[\s\S]+', '', content)
+	# "Meta descrição" sozinha na linha (valor na linha seguinte) + a linha do valor
+	content = re.sub(META_DESCRIPTION_MARKER_RE + r'$\n.*\n?', '', content, count=1, flags=re.MULTILINE)
+	# "Meta descrição: valor" ou "Meta descrição valor" na mesma linha
+	content = re.sub(META_DESCRIPTION_MARKER_RE + r'.+\n?', '', content, count=1, flags=re.MULTILINE)
+	content = re.sub(DESCRIPTION_MARKER_RE + r'.*\n?', '', content, count=1, flags=re.MULTILINE)
+	content = re.sub(KEYWORDS_MARKER_RE + r'[\s\S]*', '', content, count=1, flags=re.MULTILINE)
 	content = re.sub(r'\*\*Introdução:?\*\*:?\s*', '', content)
 	content = content.strip()
 	# Data do arquivo pelo nome (ex: 20251015_193101_nome.md)

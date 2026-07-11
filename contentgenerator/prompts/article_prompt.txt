@@ -38,6 +38,7 @@ Use uma estrutura com:
 - Conclusão calorosa com um convite ao leitor
 - Palavras-chave naturais e coerentes ao longo do texto
 - No final, liste 3 palavras-chave SEO
+- No final, escreva também uma meta descrição do artigo
 
 Ao criar os subtítulos, utilize o formato markdown com três hashtags (###) antes do texto, sem usar ** nos subtítulos.
 
