@@ -3,126 +3,168 @@
     "tema": "Dicas de armazenamento do café",
     "categoria": "equipamentos",
     "data": "2023-05-21T19:53:14",
-    "arquivo": "content/posts/dicas-de-armazenamento-do-cafe.md"
+    "arquivo": "content/posts/dicas-de-armazenamento-do-cafe.md",
+    "slug": "dicas-de-armazenamento-do-cafe",
+    "url": "/posts/dicas-de-armazenamento-do-cafe/"
   },
   {
     "tema": "Dicas de armazenamento do pó de café",
     "categoria": "equipamentos",
     "data": "2023-05-23T06:50:25",
-    "arquivo": "content/posts/dicas-de-armazenamento-do-po-do-cafe.md"
+    "arquivo": "content/posts/dicas-de-armazenamento-do-po-do-cafe.md",
+    "slug": "dicas-de-armazenamento-do-po-do-cafe",
+    "url": "/posts/dicas-de-armazenamento-do-po-do-cafe/"
   },
   {
     "tema": "Café Arábica",
     "categoria": "curiosidades",
     "data": "2023-05-25T06:10:06",
-    "arquivo": "content/posts/cafe-arabica.md"
+    "arquivo": "content/posts/cafe-arabica.md",
+    "slug": "cafe-arabica",
+    "url": "/posts/cafe-arabica/"
   },
   {
     "tema": "Café Espresso",
     "categoria": "cafe_geral",
     "data": "2023-05-25T20:29:25",
-    "arquivo": "content/posts/cafe-expresso-a-intensidade-em-uma-xicara.md"
+    "arquivo": "content/posts/cafe-expresso-a-intensidade-em-uma-xicara.md",
+    "slug": "cafe-expresso-a-intensidade-em-uma-xicara",
+    "url": "/posts/cafe-expresso-a-intensidade-em-uma-xicara/"
   },
   {
     "tema": "Café Robusta",
     "categoria": "curiosidades",
     "data": "2023-05-26T05:25:12",
-    "arquivo": "content/posts/cafe-robusta-forca-intensidade-em-cada-gole.md"
+    "arquivo": "content/posts/cafe-robusta-forca-intensidade-em-cada-gole.md",
+    "slug": "cafe-robusta-forca-intensidade-em-cada-gole",
+    "url": "/posts/cafe-robusta-forca-intensidade-em-cada-gole/"
   },
   {
     "tema": "Café Cappuccino",
     "categoria": "cafe_geral",
     "data": "2023-05-26T20:21:42",
-    "arquivo": "content/posts/cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma.md"
+    "arquivo": "content/posts/cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma.md",
+    "slug": "cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma",
+    "url": "/posts/cafe-cappuccino-a-deliciosa-combinacao-de-cafe-leite-e-espuma/"
   },
   {
     "tema": "Café Latte",
     "categoria": "cafe_geral",
     "data": "2023-05-27T08:09:23",
-    "arquivo": "content/posts/cafe-latte-a-harmonia-entre-cafe-leite-e-sabor.md"
+    "arquivo": "content/posts/cafe-latte-a-harmonia-entre-cafe-leite-e-sabor.md",
+    "slug": "cafe-latte-a-harmonia-entre-cafe-leite-e-sabor",
+    "url": "/posts/cafe-latte-a-harmonia-entre-cafe-leite-e-sabor/"
   },
   {
     "tema": "Café Americano",
     "categoria": "cafe_geral",
     "data": "2023-05-28T14:24:59",
-    "arquivo": "content/posts/cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe.md"
+    "arquivo": "content/posts/cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe.md",
+    "slug": "cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe",
+    "url": "/posts/cafe-americano-apreciando-a-simplicidade-e-a-intensidade-do-cafe/"
   },
   {
     "tema": "Guia de preparo de café: métodos e técnicas",
     "categoria": "metodos",
     "data": "2023-05-28T19:17:39",
-    "arquivo": "content/posts/guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita.md"
+    "arquivo": "content/posts/guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita.md",
+    "slug": "guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita",
+    "url": "/posts/guia-de-preparo-de-cafe-metodos-e-tecnicas-para-saborear-a-bebida-perfeita/"
   },
   {
     "tema": "Os benefícios do café para a saúde",
     "categoria": "curiosidades",
     "data": "2023-05-29T20:37:22",
-    "arquivo": "content/posts/os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude.md"
+    "arquivo": "content/posts/os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude.md",
+    "slug": "os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude",
+    "url": "/posts/os-beneficios-do-cafe-descubra-como-o-cafe-pode-impactar-a-sua-saude/"
   },
   {
     "tema": "Equipamentos essenciais para montar um coffee corner em casa",
     "categoria": "equipamentos",
     "data": "2023-05-31T07:57:37",
-    "arquivo": "content/posts/os-melhores-acessorios-para-preparar-cafe-em-casa.md"
+    "arquivo": "content/posts/os-melhores-acessorios-para-preparar-cafe-em-casa.md",
+    "slug": "os-melhores-acessorios-para-preparar-cafe-em-casa",
+    "url": "/posts/os-melhores-acessorios-para-preparar-cafe-em-casa/"
   },
   {
     "tema": "O que é café gourmet",
     "categoria": "curiosidades",
     "data": "2025-10-13T20:23:37",
-    "arquivo": "content/posts/o-que-seria-o-cafe-gourmet.md"
+    "arquivo": "content/posts/o-que-seria-o-cafe-gourmet.md",
+    "slug": "o-que-seria-o-cafe-gourmet",
+    "url": "/posts/o-que-seria-o-cafe-gourmet/"
   },
   {
     "tema": "Como o café se espalhou pelo mundo",
     "categoria": "cafe_geral",
     "data": "2025-11-03T06:57:15",
-    "arquivo": "content/posts/a-paixao-mundial-do-cafe-da-origem-a-conquista.md"
+    "arquivo": "content/posts/a-paixao-mundial-do-cafe-da-origem-a-conquista.md",
+    "slug": "a-paixao-mundial-do-cafe-da-origem-a-conquista",
+    "url": "/posts/a-paixao-mundial-do-cafe-da-origem-a-conquista/"
   },
   {
     "tema": "Os diferentes tipos de grãos de café",
     "categoria": "cafe_geral",
     "data": "2025-11-05T21:38:36",
-    "arquivo": "content/posts/tipos-de-cafe.md"
+    "arquivo": "content/posts/tipos-de-cafe.md",
+    "slug": "tipos-de-cafe",
+    "url": "/posts/tipos-de-cafe/"
   },
   {
     "tema": "Como escolher um café de qualidade",
     "categoria": "cafe_geral",
     "data": "2025-11-23T22:48:57",
-    "arquivo": "content/posts/como-escolher-um-cafe-de-qualidade-5-dicas-praticas-para-identificar-cafes-especiais.md"
+    "arquivo": "content/posts/como-escolher-um-cafe-de-qualidade-5-dicas-praticas-para-identificar-cafes-especiais.md",
+    "slug": "como-escolher-um-cafe-de-qualidade-5-dicas-praticas-para-identificar-cafes-especiais",
+    "url": "/posts/como-escolher-um-cafe-de-qualidade-5-dicas-praticas-para-identificar-cafes-especiais/"
   },
   {
     "tema": "French Press: corpo e aroma",
     "categoria": "metodos",
     "data": "2025-11-25T20:49:00",
-    "arquivo": "content/posts/descubra-o-segredo-do-cafe-perfeito-com-a-prensa-francesa.md"
+    "arquivo": "content/posts/descubra-o-segredo-do-cafe-perfeito-com-a-prensa-francesa.md",
+    "slug": "descubra-o-segredo-do-cafe-perfeito-com-a-prensa-francesa",
+    "url": "/posts/descubra-o-segredo-do-cafe-perfeito-com-a-prensa-francesa/"
   },
   {
     "tema": "Como preparar café gelado em casa",
     "categoria": "metodos",
     "data": "2025-11-29T15:14:29",
-    "arquivo": "content/posts/refrescancia-na-xicara-como-preparar-o-cafe-gelado-perfeito-em-casa.md"
+    "arquivo": "content/posts/refrescancia-na-xicara-como-preparar-o-cafe-gelado-perfeito-em-casa.md",
+    "slug": "refrescancia-na-xicara-como-preparar-o-cafe-gelado-perfeito-em-casa",
+    "url": "/posts/refrescancia-na-xicara-como-preparar-o-cafe-gelado-perfeito-em-casa/"
   },
   {
     "tema": "Boas práticas de armazenamento para manter o frescor dos grãos",
     "categoria": "cafe_geral",
     "data": "2026-07-11T12:04:07",
-    "arquivo": "outputs/20260711_120407_boas-praticas-de-armazenamento-para-manter-o-frescor-dos-graos.md"
+    "arquivo": "outputs/20260711_120407_boas-praticas-de-armazenamento-para-manter-o-frescor-dos-graos.md",
+    "slug": "boas-praticas-de-armazenamento-para-manter-o-frescor-dos-graos",
+    "url": "/posts/boas-praticas-de-armazenamento-para-manter-o-frescor-dos-graos/"
   },
   {
     "tema": "Receita de café com leite condensado cremoso",
     "categoria": "receitas",
     "data": "2026-07-11T14:41:58",
-    "arquivo": "outputs/20260711_144158_receita-de-cafe-com-leite-condensado-cremoso.md"
+    "arquivo": "outputs/20260711_144158_receita-de-cafe-com-leite-condensado-cremoso.md",
+    "slug": "cafe-com-leite-condensado-cremoso-receita-infalivel-para-comecar-bem-o-dia",
+    "url": "/posts/cafe-com-leite-condensado-cremoso-receita-infalivel-para-comecar-bem-o-dia/"
   },
   {
     "tema": "A importância da moagem no sabor do café",
     "categoria": "cafe_geral",
     "data": "2026-07-11T16:02:54",
-    "arquivo": "outputs/20260711_160254_a-importancia-da-moagem-no-sabor-do-cafe.md"
+    "arquivo": "outputs/20260711_160254_a-importancia-da-moagem-no-sabor-do-cafe.md",
+    "slug": "como-a-moagem-transforma-o-sabor-do-cafe",
+    "url": "/posts/como-a-moagem-transforma-o-sabor-do-cafe/"
   },
   {
     "tema": "Como fazer café coado sem coador de papel",
     "categoria": "receitas",
     "data": "2026-07-11T19:59:34",
-    "arquivo": "outputs/20260711_195934_como-fazer-cafe-coado-sem-coador-de-papel.md"
+    "arquivo": "outputs/20260711_195934_como-fazer-cafe-coado-sem-coador-de-papel.md",
+    "slug": "como-fazer-cafe-coado-sem-coador-de-papel-guia-pratico-e-descomplicado",
+    "url": "/posts/como-fazer-cafe-coado-sem-coador-de-papel-guia-pratico-e-descomplicado/"
   }
 ]

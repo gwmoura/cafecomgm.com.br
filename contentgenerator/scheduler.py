@@ -55,8 +55,8 @@ def escolher_tema():
 
 
 def gerar_artigo(tema: str, categoria: str) -> str:
-    _, arquivo = generate_article(tema)
-    registrar_uso(tema, categoria, arquivo)
+    _, arquivo, slug = generate_article(tema)
+    registrar_uso(tema, categoria, arquivo, slug)
     return arquivo
 
 

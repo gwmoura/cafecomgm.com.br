@@ -30,11 +30,11 @@ def generate_article(topic: str, description: str = "") -> tuple:
         f.write(response)
 
     print(f"✅ Artigo salvo em: {filename}")
-    return response, filename
+    return response, filename, slug
 
 if __name__ == "__main__":
     topic = input("Digite o tema do artigo sobre café: ")
     description = input("Digite uma breve descrição ou pontos que gostaria de incluir (opcional): ")
-    article, _ = generate_article(topic, description)
+    article, _, _ = generate_article(topic, description)
     print("\nPrévia do artigo:\n")
     print(article[:800])

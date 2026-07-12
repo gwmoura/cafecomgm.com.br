@@ -42,7 +42,7 @@ def temas_disponiveis(categoria: str) -> list:
     return [t for t in carregar_temas(categoria) if normalizar(t) not in usados]
 
 
-def registrar_uso(tema: str, categoria: str, arquivo: str) -> None:
+def registrar_uso(tema: str, categoria: str, arquivo: str, slug: str) -> None:
     usados = carregar_usados()
     usados.append(
         {
@@ -50,6 +50,8 @@ def registrar_uso(tema: str, categoria: str, arquivo: str) -> None:
             "categoria": categoria,
             "data": datetime.now().isoformat(timespec="seconds"),
             "arquivo": arquivo,
+            "url": '/posts/' + slug,
+            "slug": slug,
         }
     )
     with open(USADOS_FILE, "w", encoding="utf-8") as f:
