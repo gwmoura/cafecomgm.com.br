@@ -4,13 +4,23 @@ import time
 from datetime import datetime
 from llm import llm
 from helpers import loading_animation, slugify_topic
+from topics_tracker import carregar_usados
+
+def montar_lista_artigos_publicados() -> str:
+    artigos = carregar_usados()
+    if not artigos:
+        return "Nenhum artigo publicado ainda."
+    return "\n".join(f"- {artigo['tema']}: {artigo['url']}" for artigo in artigos)
 
 def generate_article(topic: str, description: str = "") -> tuple:
     # carregar o template do prompt
     with open("prompts/article_prompt.txt", "r", encoding="utf-8") as f:
         prompt_template = f.read()
 
-    prompt = prompt_template.format(topic=topic, description=description)
+    artigos_publicados = montar_lista_artigos_publicados()
+    prompt = prompt_template.format(
+        topic=topic, description=description, artigos_publicados=artigos_publicados
+    )
     print(f"\n🧠 Gerando artigo sobre: {topic}...\n")
 
     # mostrar loading enquanto gera texto

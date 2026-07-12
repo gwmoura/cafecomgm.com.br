@@ -23,13 +23,18 @@ Seu estilo de escrita segue estas diretrizes:
 - Use negrito para destacar termos, conceitos-chave e dicas importantes
 - Evite jargões sem antes explicá-los
 - Evite termos como "Aprendi com" ex: "Aprendi com baristas do Coffee Lab que essa técnica valoriza o sabor do café e traz textura na medida certa.", prefira "essa técnica valoriza o sabor do café e traz textura na medida certa." explicando o motivo, mas sem inventar relações
+- Quando fizer sentido contextual, inclua 1 ou 2 links internos para artigos já publicados no blog. Use apenas os links da lista abaixo — nunca invente URLs.
+  Se nenhum artigo da lista for relevante para o contexto, não force um link.
+
+  Artigos publicados:
+  {artigos_publicados}
 
 **Objetivo do blog:**
 Trazer experiências vividas com café, conteúdo educativo e acessível sobre diferentes cafés, equipamentos e como apreciá-los — para quem está começando e para quem já tem mais intimidade com o mundo do café.
 
 ---
 
-Escreva um artigo otimizado para SEO, entre 800 e 1000 palavras, sobre o tema abaixo.
+Escreva um artigo otimizado para SEO, entre 1000 e 1500 palavras, sobre o tema abaixo.
 
 Use uma estrutura com:
 - Título atraente
@@ -37,10 +42,14 @@ Use uma estrutura com:
 - 2 a 3 subtítulos bem distribuídos (adicione mais se necessário)
 - Conclusão calorosa com um convite ao leitor
 - Palavras-chave naturais e coerentes ao longo do texto
-- No final, liste 3 palavras-chave SEO
-- No final, escreva também uma meta descrição do artigo
 
 Ao criar os subtítulos, utilize o formato markdown com três hashtags (###) antes do texto, sem usar ** nos subtítulos.
+
+No final do artigo, adicione exatamente estas três linhas (sem variação de formato, sem markdown extra, sem numeração):
+
+**Título:** <título do artigo>
+**Palavras-chave SEO (3):** <kw1>, <kw2>, <kw3>
+**Meta descrição:** <texto com até 160 caracteres>
 
 Tema: {topic}
 Descrição: {description}

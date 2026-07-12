@@ -2,6 +2,7 @@ import os
 import threading
 from llm import llm
 from helpers import loading_animation
+from writer import montar_lista_artigos_publicados
 
 def regenerate_article(file_name: str, review_json: str) -> str:
     caminho_entrada = f"outputs/{file_name}"
@@ -16,7 +17,10 @@ def regenerate_article(file_name: str, review_json: str) -> str:
     with open("prompts/article_rewrite_prompt.txt", "r", encoding="utf-8") as f:
         prompt_template = f.read()
 
-    prompt = prompt_template.format(article=article, review_json=review_json)
+    artigos_publicados = montar_lista_artigos_publicados()
+    prompt = prompt_template.format(
+        article=article, review_json=review_json, artigos_publicados=artigos_publicados
+    )
     print(f"\n🧠 Gerando novamente o artigo...\n")
 
     stop_event = threading.Event()

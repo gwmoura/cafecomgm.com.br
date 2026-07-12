@@ -26,10 +26,13 @@ Você conhece profundamente o estilo de escrita do blog, que segue estas diretri
 Analise o texto a seguir e avalie em quatro dimensões:
 
 1. **Coerência e coesão**: aponte informações contraditórias, trechos confusos ou sem conexão lógica, e informações duvidosas que merecem verificação.
+   - Verifique se há artefatos visíveis no texto, como listas de palavras-chave, seções "Meta descrição:" ou "Palavras-chave SEO" que apareçam no corpo do artigo em vez de estarem restritas ao bloco final de metadados. Se existirem, o campo "score" geral deve ser no máximo 5.
 
 2. **Aderência ao estilo do blog**: identifique trechos que soam artificiais, robóticos ou que fogem do tom esperado (muito formal, muito distante, sem personalidade, introdução longa demais, sem despedida, etc).
 
 3. **SEO**: avalie uso de palavras-chave (naturais ou forçadas), estrutura de subtítulos, presença de metadescrição sugerida e densidade de termos relevantes.
+   - Links internos: URLs que não pertençam ao domínio cafecom.georgemoura.com.br ou que pareçam inventadas devem reduzir a nota. Ausência de links não penaliza.
+   - Extensão do artigo: textos abaixo de 900 palavras devem ser penalizados nessa dimensão.
 
 4. **Humanização**: o texto parece escrito por uma pessoa real apaixonada por café, ou parece gerado por IA sem personalidade?
 

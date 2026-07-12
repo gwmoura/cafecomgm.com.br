@@ -35,7 +35,7 @@ Tecnicamente, grãos inteiros podem durar até 3 meses se muito bem guardados. M
 
 ### 5. Moa na hora de preparar
 Moer só o que vai usar no momento faz toda a diferença.
-Para quem quiser dicas de moagem, dá uma olhada no nosso post sobre [moagem](/moagem). Grãos inteiros mantêm o aroma lá em cima até o último momento.
+Para quem quiser se aprofundar em dicas de moagem, vale a pena pesquisar mais sobre o assunto. Grãos inteiros mantêm o aroma lá em cima até o último momento.
 
 ### 6. Saiba o que evitar
 - Potes de vidro sem vedação: aceito só em lugar perfeito (escuro e seco).
@@ -50,6 +50,6 @@ Para quem quiser dicas de moagem, dá uma olhada no nosso post sobre [moagem](/m
 - Quanto tempo dura?
   Grãos inteiros: até 3 meses (mas compre a cada 2–4 semanas). Moídos: até 2 semanas.
 
-Para quem curte detalhes de preparo, confere também o post de [preparo](/preparo). Assim, seu café sai sempre incrível!
+Para quem curte detalhes de preparo, vale a pena caprichar em cada etapa. Assim, seu café sai sempre incrível!
 
 Espero ter ajudado! Bora tomar um café? Um abraço e até a próxima!
